@@ -1,0 +1,732 @@
+
+/* =====================================================
+   AGROMATIC - HOME V3
+   Bienvenida y carrusel de productos
+   Compatible con vista previa y Laravel
+   ===================================================== */
+
+:root {
+    --agm-navy: #073766;
+    --agm-blue: #087eb4;
+    --agm-cyan: #13b9df;
+    --agm-light: #edf7fc;
+    --agm-border: #dcebf4;
+}
+
+/* ESTILO GENERAL */
+
+.agm-about,
+.agm-products,
+.agm-live-products {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.agm-about *,
+.agm-products *,
+.agm-live-products * {
+    box-sizing: border-box;
+}
+
+/* =====================================================
+   1. BIENVENIDA
+   ===================================================== */
+
+.agm-about {
+    width: 100%;
+    padding: 48px 24px 42px;
+    background: linear-gradient(
+        180deg,
+        #edf6fb 0%,
+        #f6fbfe 100%
+    );
+}
+
+.agm-about-container {
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    width: 100%;
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 52px 54px;
+    border: 1px solid #e0ebf3;
+    border-radius: 22px;
+    background: #ffffff;
+    box-shadow: 0 18px 45px rgba(7, 55, 102, .10);
+}
+
+/* Ondas decorativas */
+
+.agm-about-container::before,
+.agm-about-container::after {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.agm-about-container::before {
+    top: -80px;
+    right: -90px;
+    width: 460px;
+    height: 195px;
+    border-radius: 0 0 50% 70%;
+    transform: rotate(12deg);
+    background: linear-gradient(
+        110deg,
+        #d8f6ff,
+        #67d6f4
+    );
+}
+
+.agm-about-container::after {
+    bottom: -120px;
+    left: -100px;
+    width: 700px;
+    height: 175px;
+    border-radius: 50% 75% 0 0;
+    transform: rotate(9deg);
+    background: linear-gradient(
+        90deg,
+        #10b1d8,
+        #ddf8ff
+    );
+}
+
+/* Distribución */
+
+.agm-about-layout {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    grid-template-columns:
+        minmax(0, 1.05fr)
+        minmax(0, 1fr);
+    gap: 45px;
+    align-items: center;
+}
+
+.agm-about-content {
+    min-width: 0;
+}
+
+/* Título */
+
+.agm-about-content h2 {
+    margin: 0 0 26px;
+    padding-left: 19px;
+    border-left: 6px solid var(--agm-cyan);
+    color: var(--agm-navy);
+    font-size: clamp(30px, 3vw, 44px);
+    font-weight: 800;
+    line-height: 1.14;
+    letter-spacing: -1.2px;
+}
+
+/* Párrafos */
+
+.agm-about-description {
+    margin: 0 0 18px;
+    color: #2b4663;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.agm-about-description:last-child {
+    margin-bottom: 0;
+}
+
+/* Fotografía */
+
+.agm-about-visual {
+    position: relative;
+    min-width: 0;
+    z-index: 1;
+}
+
+.agm-about-visual img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
+    border: 4px solid #ffffff;
+    border-radius: 18px;
+    box-shadow: 0 13px 32px rgba(7, 55, 102, .16);
+}
+
+/* =====================================================
+   2. FONDO DE PRODUCTOS
+   ===================================================== */
+
+.agm-products,
+.container.agm-home-products-shell {
+    position: relative;
+    background:
+        radial-gradient(
+            ellipse at 0% 100%,
+            rgba(34, 191, 231, .19),
+            transparent 35%
+        ),
+        radial-gradient(
+            ellipse at 100% 100%,
+            rgba(10, 130, 197, .13),
+            transparent 38%
+        ),
+        linear-gradient(
+            180deg,
+            #f6fbff 0%,
+            #ffffff 50%,
+            #eff8ff 100%
+        );
+}
+
+/* Vista previa */
+
+.agm-products {
+    padding: 65px 24px 85px;
+}
+
+.agm-products-container {
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+/* Laravel */
+
+.container.agm-home-products-shell {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 auto;
+    padding: 65px max(24px, calc((100vw - 1350px) / 2)) 85px;
+}
+
+/* =====================================================
+   3. ENCABEZADO DE PRODUCTOS
+   ===================================================== */
+
+/* Vista previa */
+
+.agm-products-header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 35px;
+    text-align: center;
+}
+
+.agm-products-header h2 {
+    margin: 0 0 12px;
+    padding: 0;
+    border: none;
+    color: var(--agm-navy);
+    font-size: clamp(29px, 3vw, 42px);
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.agm-products-header h2::before {
+    content: "//";
+    display: inline-block;
+    margin-right: 14px;
+    color: var(--agm-cyan);
+    letter-spacing: -6px;
+}
+
+.agm-products-header p {
+    color: #627689;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+/* Laravel */
+
+.agm-live-products {
+    position: relative;
+}
+
+.agm-live-products .content-title {
+    display: block;
+    margin: 0 0 35px;
+    padding: 0 100px;
+    border: 0;
+    text-align: center;
+}
+
+.agm-live-products .title-bg {
+    float: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+}
+
+.agm-live-products .title-bg::before,
+.agm-live-products .title-bg::after {
+    display: none;
+}
+
+.agm-live-products .title {
+    float: none;
+    margin: 0 0 12px;
+    padding: 0;
+    border: 0;
+    color: var(--agm-navy);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: clamp(29px, 3vw, 42px);
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.agm-live-products .title::before {
+    content: "//";
+    display: inline-block;
+    margin-right: 14px;
+    color: var(--agm-cyan);
+    letter-spacing: -6px;
+}
+
+.agm-live-products .title-desc {
+    margin: 0;
+    color: #627689;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+/* =====================================================
+   4. FLECHAS DEL CARRUSEL
+   ===================================================== */
+
+/* Vista previa */
+
+.agm-products-controls {
+    position: absolute;
+    right: 0;
+    top: 8px;
+    display: flex;
+    gap: 10px;
+}
+
+.agm-products-controls button {
+    width: 43px;
+    height: 43px;
+    border: 1px solid #c8e4f4;
+    border-radius: 11px;
+    background: #ffffff;
+    color: var(--agm-blue);
+    font-size: 21px;
+    box-shadow: 0 4px 12px rgba(7, 55, 102, .05);
+    cursor: pointer;
+}
+
+.agm-products-controls button:hover:not(:disabled) {
+    background: var(--agm-blue);
+    color: #ffffff;
+}
+
+.agm-products-controls button:disabled {
+    opacity: .38;
+    cursor: default;
+}
+
+/* Laravel / Owl Carousel */
+
+.agm-live-products .carousel-controls {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    z-index: 5;
+    display: flex;
+    gap: 10px;
+}
+
+.agm-live-products .carousel-btn {
+    border: 1px solid #c8e4f4;
+    border-radius: 11px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(7, 55, 102, .05);
+}
+
+/* =====================================================
+   5. TARJETAS - VISTA PREVIA
+   ===================================================== */
+
+.agm-products-track {
+    gap: 22px;
+    padding-top: 8px;
+    padding-bottom: 25px;
+}
+
+.agm-product-card {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border: 1px solid #e0edf5;
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: 0 8px 25px rgba(7, 55, 102, .07);
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease;
+}
+
+.agm-product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 17px 38px rgba(7, 55, 102, .13);
+}
+
+.agm-product-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 260px;
+    margin: 12px 12px 0;
+    padding: 20px;
+    overflow: hidden;
+    border-radius: 14px;
+    background: #edf6fc;
+}
+
+.agm-product-image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.agm-product-info {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    min-height: 140px;
+    padding: 20px 20px 25px;
+    text-align: center;
+    background: #ffffff;
+}
+
+.agm-product-info h3 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    margin: 0 0 20px;
+    color: var(--agm-navy);
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.4;
+}
+
+/* =====================================================
+   6. TARJETAS - LARAVEL
+   ===================================================== */
+
+.agm-live-products .owl-item {
+    padding: 8px 11px 25px;
+}
+
+.agm-live-products .item.agm-live-product {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 100%;
+    margin: 0;
+    border: 1px solid #e0edf5;
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: 0 8px 25px rgba(7, 55, 102, .07);
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease;
+}
+
+.agm-live-products .item.agm-live-product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 17px 38px rgba(7, 55, 102, .13);
+}
+
+.agm-live-products .item-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 260px;
+    min-height: 0;
+    margin: 12px 12px 0;
+    padding: 20px;
+    overflow: hidden;
+    border-radius: 14px;
+    background: #edf6fc;
+}
+
+.agm-live-products .item-image-container figure,
+.agm-live-products .item-image-container figure a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.agm-live-products .item-image-container .item-image {
+    position: static !important;
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    object-fit: contain;
+    opacity: 1 !important;
+    transform: none !important;
+}
+
+.agm-live-products .item-image-hover {
+    display: none !important;
+}
+
+.agm-live-products .item-meta-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    min-height: 140px;
+    padding: 20px 20px 25px;
+    text-align: center;
+    background: #ffffff;
+}
+
+.agm-live-products .item-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    width: 100%;
+    min-height: 48px;
+    margin: 0 0 20px;
+}
+
+.agm-live-products .item-name a {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    color: var(--agm-navy);
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.4;
+    text-decoration: none;
+    overflow-wrap: anywhere;
+}
+
+/* =====================================================
+   7. BOTONES DE PRODUCTOS
+   ===================================================== */
+
+.agm-product-link,
+.agm-live-products .item-add-btn {
+    display: inline-flex !important;
+    justify-content: center;
+    align-items: center;
+    min-width: 150px;
+    min-height: 42px;
+    padding: 10px 22px;
+    border: 0;
+    border-radius: 24px;
+    background: linear-gradient(
+        115deg,
+        #07b2d4,
+        #07558a
+    ) !important;
+    color: #ffffff !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1.4;
+    text-decoration: none !important;
+    box-shadow: 0 5px 14px rgba(5, 108, 159, .13);
+    transition: box-shadow .2s ease;
+}
+
+.agm-product-link:hover,
+.agm-live-products .item-add-btn:hover {
+    box-shadow: 0 8px 19px rgba(5, 108, 159, .24);
+}
+
+.agm-live-products .item-action {
+    position: static !important;
+    display: flex !important;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+.agm-live-products .icon-cart-text {
+    color: #ffffff !important;
+}
+
+/* Accesibilidad */
+
+.agm-products a:focus-visible,
+.agm-products button:focus-visible,
+.agm-live-products a:focus-visible {
+    outline: 3px solid var(--agm-cyan);
+    outline-offset: 3px;
+}
+
+/* =====================================================
+   8. TABLETS
+   ===================================================== */
+
+@media (max-width: 1024px) {
+
+    .agm-about-container {
+        padding: 38px;
+    }
+
+    .agm-about-layout {
+        gap: 28px;
+    }
+
+    .agm-about-content h2 {
+        font-size: 34px;
+    }
+
+    .agm-about-description {
+        font-size: 14px;
+    }
+
+    .agm-products-track {
+        grid-auto-columns: calc((100% - 18px) / 2);
+        gap: 18px;
+    }
+}
+
+/* =====================================================
+   9. CELULARES
+   ===================================================== */
+
+@media (max-width: 767px) {
+
+    .agm-about {
+        padding: 26px 14px;
+    }
+
+    .agm-about-container {
+        padding: 31px 23px;
+        border-radius: 14px;
+    }
+
+    .agm-about-layout {
+        grid-template-columns: 1fr;
+        gap: 26px;
+    }
+
+    .agm-about-content h2 {
+        margin-bottom: 23px;
+        font-size: 29px;
+        letter-spacing: -.6px;
+    }
+
+    .agm-about-description {
+        font-size: 14px;
+        line-height: 1.75;
+    }
+
+    .agm-about-visual img {
+        border-radius: 12px;
+        aspect-ratio: 16 / 10;
+    }
+
+    .agm-about-container::before {
+        width: 230px;
+        height: 120px;
+    }
+
+    .agm-about-container::after {
+        width: 300px;
+        height: 100px;
+    }
+
+    .agm-products {
+        padding: 44px 16px 65px;
+    }
+
+    .container.agm-home-products-shell {
+        padding: 44px 18px 65px;
+    }
+
+    .agm-products-header,
+    .agm-live-products .content-title {
+        justify-content: flex-start;
+        padding: 0 85px 0 0;
+        text-align: left;
+    }
+
+    .agm-products-header h2,
+    .agm-live-products .title {
+        font-size: 27px;
+    }
+
+    .agm-products-header p,
+    .agm-live-products .title-desc {
+        font-size: 12px;
+    }
+
+    .agm-products-controls {
+        top: 4px;
+    }
+
+    .agm-live-products .carousel-controls {
+        top: 5px;
+    }
+
+    .agm-products-controls button {
+        width: 36px;
+        height: 36px;
+    }
+
+    .agm-products-track {
+        grid-auto-columns: 88%;
+        gap: 14px;
+    }
+
+    .agm-product-image,
+    .agm-live-products .item-image-container {
+        height: 225px;
+    }
+
+    .agm-product-info h3,
+    .agm-live-products .item-name a {
+        font-size: 16px;
+    }
+
+    .agm-product-link,
+    .agm-live-products .item-add-btn {
+        min-width: 135px;
+    }
+}
+
+/* =====================================================
+   10. MOVIMIENTO REDUCIDO
+   ===================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+
+    .agm-product-card,
+    .agm-live-products .item.agm-live-product {
+        transition: none;
+    }
+
+    .agm-product-card:hover,
+    .agm-live-products .item.agm-live-product:hover {
+        transform: none;
+    }
+}
+
+/* FIN AGROMATIC HOME V3 */

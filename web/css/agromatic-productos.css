@@ -1,0 +1,762 @@
+
+/* ==========================================
+   AGROMATIC - CATALOGO PRODUCTOS V1
+   Diseño responsive
+   ========================================== */
+
+.agm-catalog-page,
+.agm-catalog-page * {
+    box-sizing: border-box;
+}
+
+.agm-catalog-page {
+    width: 100%;
+    background: #f7fbff;
+    color: #073766;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.agm-catalog-sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+/* ==========================================
+   BANNER
+   ========================================== */
+
+.agm-catalog-banner {
+    width: 100%;
+    overflow: hidden;
+    background: #073766;
+    border-bottom: 4px solid #09bce8;
+}
+
+.agm-catalog-banner img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: none;
+}
+
+/* ==========================================
+   CONTENEDOR Y BREADCRUMB
+   ========================================== */
+
+.agm-catalog-container {
+    width: calc(100% - 48px);
+    max-width: 1680px;
+    margin: 0 auto;
+}
+
+.agm-catalog-breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-height: 56px;
+    color: #54738e;
+    font-size: 13px;
+}
+
+.agm-catalog-breadcrumb a {
+    color: #086a9e;
+    text-decoration: none;
+}
+
+.agm-catalog-breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+/* ==========================================
+   DISTRIBUCION PRINCIPAL
+   ========================================== */
+
+.agm-catalog-layout {
+    display: grid;
+    grid-template-columns:
+        260px minmax(0, 1fr);
+    align-items: start;
+    gap: 24px;
+    padding-bottom: 65px;
+}
+
+/* ==========================================
+   PANEL LATERAL
+   ========================================== */
+
+.agm-catalog-sidebar {
+    min-width: 0;
+    overflow: hidden;
+
+    background: #ffffff;
+    border: 1px solid #d5e8f5;
+    border-radius: 15px;
+
+    box-shadow:
+        0 8px 22px rgba(6, 69, 117, .05);
+}
+
+.agm-catalog-sidebar-heading {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    min-height: 57px;
+    padding: 16px 18px;
+
+    background: #e9f6fd;
+}
+
+.agm-catalog-sidebar-heading svg {
+    width: 21px;
+    height: 21px;
+    color: #087faf;
+}
+
+.agm-catalog-sidebar-heading h2 {
+    margin: 0;
+    color: #073766;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.3;
+}
+
+.agm-catalog-category-list {
+    margin: 0;
+    padding: 9px;
+    list-style: none;
+}
+
+.agm-catalog-category-list li {
+    margin: 0;
+    padding: 0;
+}
+
+.agm-catalog-category-list li a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+
+    min-height: 46px;
+    padding: 10px 12px;
+
+    border-radius: 8px;
+
+    color: #17446c;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.4;
+
+    text-decoration: none;
+    transition:
+        background .2s ease,
+        color .2s ease;
+}
+
+.agm-catalog-category-list li a:hover,
+.agm-catalog-category-list li a:focus-visible {
+    background: #087eae;
+    color: #ffffff;
+}
+
+.agm-catalog-category-name {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    min-width: 0;
+}
+
+.agm-catalog-category-name svg {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+}
+
+.agm-catalog-chevron {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+/* ==========================================
+   CONTENIDO
+   ========================================== */
+
+.agm-catalog-content {
+    min-width: 0;
+}
+
+.agm-catalog-toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+    min-height: 76px;
+    margin-bottom: 20px;
+}
+
+.agm-catalog-heading h2 {
+    margin: 0 0 7px;
+    color: #073766;
+    font-size: clamp(22px, 2vw, 29px);
+    font-weight: 800;
+    line-height: 1.3;
+}
+
+.agm-catalog-heading p {
+    margin: 0;
+    color: #54738e;
+    font-size: 13px;
+}
+
+/* ==========================================
+   CAMBIAR ENTRE CUADRICULA Y LISTA
+   ========================================== */
+
+.agm-catalog-view-controls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+}
+
+.agm-catalog-view-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 38px;
+    height: 38px;
+
+    padding: 0;
+    border: 1px solid #cce5f5;
+    border-radius: 8px;
+
+    background: #ffffff;
+    color: #087fae;
+    cursor: pointer;
+}
+
+.agm-catalog-view-btn svg {
+    width: 18px;
+    height: 18px;
+}
+
+.agm-catalog-view-btn:hover,
+.agm-catalog-view-btn.is-active {
+    background: #076c9f;
+    border-color: #076c9f;
+    color: #ffffff;
+}
+
+/* ==========================================
+   TARJETAS - CUATRO COLUMNAS
+   ========================================== */
+
+.agm-catalog-grid {
+    display: grid;
+    grid-template-columns:
+        repeat(4, minmax(0, 1fr));
+
+    align-items: stretch;
+    gap: 15px;
+}
+
+.agm-catalog-card {
+    display: flex;
+    flex-direction: column;
+
+    min-width: 0;
+    overflow: hidden;
+
+    background: #ffffff;
+    border: 1px solid #d7e9f6;
+    border-radius: 15px;
+
+    box-shadow:
+        0 5px 15px rgba(5, 69, 110, .04);
+
+    transition:
+        transform .2s ease,
+        box-shadow .2s ease;
+}
+
+.agm-catalog-card:hover {
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 11px 24px rgba(5, 69, 110, .12);
+}
+
+/* FOTOGRAFIA ORIGINAL */
+
+.agm-catalog-card-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 190px;
+    padding: 16px;
+
+    background: #f0f8fd;
+    text-decoration: none;
+}
+
+.agm-catalog-card-image img {
+    display: block;
+    width: 100%;
+    max-width: 175px;
+    height: 170px;
+
+    object-fit: contain;
+}
+
+/* INFORMACION */
+
+.agm-catalog-card-body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 15px;
+    padding: 17px 13px 20px;
+
+    text-align: center;
+}
+
+.agm-catalog-card-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex: 1;
+    width: 100%;
+    min-height: 54px;
+
+    margin: 0;
+    padding: 0;
+
+    color: #073766;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 1.4;
+
+    overflow-wrap: anywhere;
+}
+
+.agm-catalog-card-title a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.agm-catalog-card-title a:hover {
+    color: #009cc3;
+}
+
+/* BOTON VER DETALLE */
+
+.agm-catalog-card-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+
+    min-height: 38px;
+    padding: 9px 20px;
+
+    border-radius: 25px;
+
+    background: linear-gradient(
+        100deg,
+        #05afd0,
+        #06588f
+    );
+
+    color: #ffffff !important;
+    font-size: 12px;
+    font-weight: 700;
+
+    text-decoration: none !important;
+    white-space: nowrap;
+}
+
+.agm-catalog-card-button:hover {
+    background: #064b7c;
+}
+
+.agm-catalog-card-button span {
+    font-size: 18px;
+    line-height: .8;
+}
+
+/* ==========================================
+   VISTA DE LISTA
+   ========================================== */
+
+.agm-catalog-grid.agm-catalog-list {
+    grid-template-columns: 1fr;
+}
+
+.agm-catalog-list .agm-catalog-card {
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.agm-catalog-list .agm-catalog-card-image {
+    flex: 0 0 220px;
+    min-height: 180px;
+}
+
+.agm-catalog-list .agm-catalog-card-body {
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    padding: 24px;
+}
+
+.agm-catalog-list .agm-catalog-card-title {
+    flex: initial;
+    justify-content: flex-start;
+    min-height: 0;
+    font-size: 17px;
+}
+
+/* ==========================================
+   PAGINACION LARAVEL
+   ========================================== */
+
+.agm-catalog-pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 33px;
+    overflow-x: auto;
+}
+
+.agm-catalog-pagination .pagination {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px;
+
+    margin: 0;
+    padding: 0;
+}
+
+.agm-catalog-pagination .pagination li {
+    list-style: none;
+}
+
+.agm-catalog-pagination .pagination li a,
+.agm-catalog-pagination .pagination li span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-width: 37px;
+    min-height: 37px;
+
+    padding: 7px 11px;
+    border: 1px solid #d2e5f3;
+    border-radius: 7px;
+
+    background: #ffffff;
+    color: #0a5e90;
+    font-size: 13px;
+    font-weight: 700;
+
+    text-decoration: none;
+}
+
+.agm-catalog-pagination .pagination li.active span,
+.agm-catalog-pagination .pagination li.active a {
+    background: #086b9e;
+    border-color: #086b9e;
+    color: #ffffff;
+}
+
+.agm-catalog-pagination .pagination li a:hover {
+    background: #e3f5ff;
+}
+
+.agm-catalog-pagination .pagination li.disabled span {
+    opacity: .45;
+}
+
+.agm-catalog-empty {
+    padding: 55px 20px;
+    border: 1px solid #d5e8f5;
+    border-radius: 12px;
+    background: #ffffff;
+    text-align: center;
+    color: #476b88;
+}
+
+/* ==========================================
+   RESPONSIVE - TABLET
+   ========================================== */
+
+@media (max-width: 1200px) {
+
+    .agm-catalog-layout {
+        grid-template-columns:
+            225px minmax(0, 1fr);
+        gap: 18px;
+    }
+
+    .agm-catalog-grid {
+        grid-template-columns:
+            repeat(3, minmax(0, 1fr));
+    }
+}
+
+/* ==========================================
+   RESPONSIVE - MOVIL
+   ========================================== */
+
+@media (max-width: 850px) {
+
+    .agm-catalog-layout {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 23px;
+    }
+
+    .agm-catalog-category-list {
+        display: grid;
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+        gap: 4px;
+    }
+
+    .agm-catalog-grid {
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+    }
+
+    .agm-catalog-card-image {
+        min-height: 170px;
+    }
+
+    .agm-catalog-card-image img {
+        height: 150px;
+    }
+}
+
+@media (max-width: 520px) {
+
+    .agm-catalog-container {
+        width: calc(100% - 28px);
+    }
+
+    .agm-catalog-breadcrumb {
+        min-height: 45px;
+    }
+
+    .agm-catalog-category-list {
+        grid-template-columns: minmax(0, 1fr);
+        max-height: 245px;
+        overflow-y: auto;
+    }
+
+    .agm-catalog-toolbar {
+        min-height: auto;
+        align-items: flex-start;
+    }
+
+    .agm-catalog-heading h2 {
+        font-size: 21px;
+    }
+
+    .agm-catalog-grid {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 15px;
+    }
+
+    .agm-catalog-card-image {
+        min-height: 195px;
+    }
+
+    .agm-catalog-card-image img {
+        max-width: 200px;
+        height: 180px;
+    }
+
+    .agm-catalog-list .agm-catalog-card {
+        flex-direction: column;
+    }
+
+    .agm-catalog-list .agm-catalog-card-image {
+        flex: initial;
+    }
+
+    .agm-catalog-list .agm-catalog-card-body {
+        align-items: center;
+        text-align: center;
+    }
+
+    .agm-catalog-list .agm-catalog-card-title {
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+/* FIN CATALOGO AGROMATIC V1 */
+
+
+/* ==========================================
+   AGROMATIC PRODUCTOS - AJUSTES V2
+   ========================================== */
+
+/* Contenedor y columnas */
+
+.agm-catalog-container {
+    max-width: 1600px;
+}
+
+.agm-catalog-layout {
+    grid-template-columns: 245px minmax(0, 1fr);
+    gap: 22px;
+}
+
+/* Cuatro tarjetas por fila */
+
+.agm-catalog-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 12px;
+}
+
+/* Tarjetas compactas */
+
+.agm-catalog-card-image {
+    min-height: 165px;
+    padding: 12px;
+    background: #f5faff;
+}
+
+.agm-catalog-card-image img {
+    max-width: 155px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.agm-catalog-card-body {
+    gap: 12px;
+    padding: 14px 12px 17px;
+}
+
+.agm-catalog-card-title {
+    font-size: 13px;
+    min-height: 55px;
+}
+
+.agm-catalog-card-button {
+    min-height: 33px;
+    padding: 7px 17px;
+}
+
+/* Franja de beneficios */
+
+.agm-catalog-benefits {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    align-items: center;
+    margin: 0 0 32px;
+    padding: 16px 10px;
+
+    border: 1px solid #d8eaf6;
+    border-radius: 12px;
+
+    background: linear-gradient(
+        180deg, #ffffff, #eef9ff
+    );
+
+    box-shadow: 0 6px 15px rgba(4, 89, 140, .07);
+}
+
+.agm-catalog-benefit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+
+    min-width: 0;
+    padding: 8px 15px;
+
+    border-right: 1px solid #cfe5f4;
+    color: #073766;
+    font-size: 13px;
+    line-height: 1.35;
+}
+
+.agm-catalog-benefit:last-child {
+    border-right: none;
+}
+
+.agm-catalog-benefit svg {
+    width: 37px;
+    height: 37px;
+    flex: 0 0 37px;
+    color: #078bbf;
+}
+
+/* TABLET */
+
+@media (max-width: 1150px) {
+    .agm-catalog-layout {
+        grid-template-columns: 220px minmax(0, 1fr);
+    }
+
+    .agm-catalog-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 850px) {
+    .agm-catalog-layout {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .agm-catalog-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .agm-catalog-benefits {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        row-gap: 12px;
+    }
+
+    .agm-catalog-benefit:nth-child(2) {
+        border-right: none;
+    }
+}
+
+/* CELULAR */
+
+@media (max-width: 520px) {
+    .agm-catalog-grid {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .agm-catalog-benefit {
+        flex-direction: column;
+        gap: 8px;
+        padding: 12px 6px;
+        text-align: center;
+        font-size: 11px;
+    }
+
+    .agm-catalog-benefit svg {
+        width: 32px;
+        height: 32px;
+        flex-basis: 32px;
+    }
+}

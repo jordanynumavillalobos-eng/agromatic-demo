@@ -1,0 +1,852 @@
+
+/* =====================================
+   AGROMATIC - ENCABEZADO MODERNO
+   ===================================== */
+
+.ag2-header {
+    position: relative;
+    z-index: 50;
+    width: 100%;
+    background: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 3px 14px rgba(0, 35, 70, 0.08);
+}
+
+.ag2-header * {
+    box-sizing: border-box;
+}
+
+.ag2-header a {
+    text-decoration: none;
+}
+
+.ag2-container {
+    max-width: 1450px;
+    width: calc(100% - 64px);
+    margin: 0 auto;
+}
+
+/* BARRA SUPERIOR */
+
+.ag2-top {
+    background: linear-gradient(
+        90deg,
+        #07365b,
+        #064c7b
+    );
+    color: #ffffff;
+}
+
+.ag2-top-content {
+    min-height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.ag2-contact-info {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.ag2-top a {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.ag2-top a:hover {
+    color: #82ddff;
+}
+
+.ag2-support {
+    font-weight: 700 !important;
+    white-space: nowrap;
+}
+
+/* ZONA PRINCIPAL */
+
+.ag2-main {
+    display: grid;
+    grid-template-columns: minmax(260px, 440px) minmax(260px, 1fr) auto;
+    align-items: center;
+    gap: 32px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+/* LOGOTIPO ORIGINAL */
+
+.ag2-logo {
+    display: block;
+    min-width: 0;
+}
+
+.ag2-logo img {
+    width: 100%;
+    max-width: 440px;
+    height: auto;
+    display: block;
+    border: 0;
+}
+
+/* BUSCADOR */
+
+.ag2-search {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 54px;
+    margin: 0;
+    padding: 4px;
+    background: #ffffff;
+    border: 1px solid #cbd8e3;
+    border-radius: 8px;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.04);
+}
+
+.ag2-search input {
+    flex: 1;
+    min-width: 0;
+    height: 44px;
+    padding: 0 16px;
+    border: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    outline: none;
+    font-size: 14px;
+    color: #1a344a;
+}
+
+.ag2-search input::placeholder {
+    color: #788895;
+}
+
+.ag2-search button {
+    height: 44px;
+    min-width: 108px;
+    padding: 0 18px;
+    border: none;
+    border-radius: 5px;
+    background: #07649a;
+    color: #ffffff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.ag2-search button:hover {
+    background: #034b76;
+}
+
+/* WHATSAPP */
+
+.ag2-whatsapp {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-left: 25px;
+    border-left: 1px solid #dce5ec;
+    color: #128c4b;
+    white-space: nowrap;
+}
+
+.ag2-whatsapp-icon {
+    font-size: 38px;
+    color: #13a955;
+    line-height: 1;
+}
+
+.ag2-whatsapp small {
+    display: block;
+    color: #667782;
+    font-size: 11px;
+}
+
+.ag2-whatsapp strong {
+    display: block;
+    color: #079343;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.ag2-whatsapp:hover strong {
+    color: #086e37;
+}
+
+/* NAVEGACION */
+
+.ag2-navigation {
+    background: linear-gradient(
+        90deg,
+        #0875ae,
+        #064f83,
+        #073f6b
+    );
+    border-bottom: 4px solid #10a9db;
+}
+
+.ag2-desktop-menu {
+    min-height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.ag2-desktop-menu a {
+    flex: 1;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    transition: background 0.2s ease;
+}
+
+.ag2-desktop-menu a:hover,
+.ag2-desktop-menu a.ag2-active {
+    background: #087db5;
+    color: #ffffff;
+    box-shadow: inset 0 -3px 0 #29c6f5;
+}
+
+/* MENU MOVIL */
+
+.ag2-mobile-menu {
+    display: none;
+}
+
+.ag2-sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+}
+
+/* AUTOCOMPLETADO */
+
+.ui-autocomplete {
+    z-index: 10010 !important;
+}
+
+/* =====================================
+   TABLETS
+   ===================================== */
+
+@media (max-width: 1100px) {
+
+    .ag2-main {
+        grid-template-columns: minmax(220px, 350px) 1fr;
+        gap: 20px;
+    }
+
+    .ag2-whatsapp {
+        grid-column: 2;
+        border-left: 0;
+        padding-left: 0;
+    }
+
+    .ag2-contact-info {
+        gap: 12px;
+    }
+
+    .ag2-desktop-menu a {
+        padding: 12px 8px;
+        font-size: 12px;
+    }
+}
+
+/* =====================================
+   CELULARES
+   ===================================== */
+
+@media (max-width: 768px) {
+
+    .ag2-container {
+        width: calc(100% - 30px);
+    }
+
+    .ag2-top-content {
+        min-height: 36px;
+    }
+
+    .ag2-contact-info a {
+        display: none;
+    }
+
+    .ag2-contact-info a:first-child {
+        display: inline;
+        font-size: 10px;
+    }
+
+    .ag2-support {
+        font-size: 11px !important;
+    }
+
+    .ag2-main {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 16px;
+        padding: 18px 0;
+    }
+
+    .ag2-logo img {
+        max-width: 400px;
+    }
+
+    .ag2-search {
+        height: 48px;
+    }
+
+    .ag2-search input {
+        height: 40px;
+        font-size: 13px;
+    }
+
+    .ag2-search button {
+        height: 40px;
+        min-width: 75px;
+        padding: 0 10px;
+    }
+
+    .ag2-whatsapp {
+        padding: 0;
+        align-self: flex-start;
+    }
+
+    .ag2-whatsapp-icon {
+        font-size: 28px;
+    }
+
+    .ag2-whatsapp strong {
+        font-size: 15px;
+    }
+
+    .ag2-desktop-menu {
+        display: none;
+    }
+
+    .ag2-mobile-menu {
+        display: block;
+        color: #ffffff;
+    }
+
+    .ag2-mobile-menu summary {
+        padding: 15px 0;
+        color: #ffffff;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    .ag2-mobile-menu nav {
+        padding-bottom: 10px;
+    }
+
+    .ag2-mobile-menu nav a {
+        display: block;
+        padding: 13px 10px;
+        border-top: 1px solid rgba(255,255,255,.15);
+        color: #ffffff;
+        font-weight: 600;
+    }
+
+    .ag2-mobile-menu nav a:hover {
+        background: rgba(255,255,255,.12);
+    }
+}
+
+@media (max-width: 420px) {
+    .ag2-support {
+        display: none;
+    }
+
+    .ag2-search input {
+        padding: 0 8px;
+    }
+}
+
+
+/* =========================================
+   AGROMATIC - AJUSTES FINALES DEL HEADER
+   ========================================= */
+
+/* 1. BARRA SUPERIOR MAS ELEGANTE */
+
+.ag2-top {
+    background: #073b63;
+}
+
+.ag2-top-content {
+    min-height: 36px;
+    gap: 15px;
+}
+
+.ag2-top a {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.1px;
+}
+
+.ag2-contact-info {
+    gap: 22px;
+}
+
+.ag2-top a:hover {
+    color: #9fe5ff;
+}
+
+/* 2. ALINEACION Y TAMAÑO DEL LOGOTIPO */
+
+.ag2-main {
+    grid-template-columns:
+        minmax(260px, 430px)
+        minmax(280px, 1fr)
+        auto;
+
+    align-items: center;
+    gap: 26px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.ag2-logo {
+    display: flex;
+    align-items: center;
+}
+
+.ag2-logo img {
+    display: block;
+    width: 100%;
+    max-width: 430px;
+    height: auto;
+    object-fit: contain;
+}
+
+/* 3. BUSCADOR COMPACTO */
+
+.ag2-search {
+    height: 50px;
+    border-radius: 7px;
+    border: 1px solid #d0dce7;
+    box-shadow: 0 2px 9px rgba(7, 59, 99, 0.04);
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.ag2-search:focus-within {
+    border-color: #148ac1;
+    box-shadow: 0 0 0 3px rgba(20, 138, 193, 0.09);
+}
+
+.ag2-search input {
+    height: 42px;
+    font-size: 13px;
+}
+
+.ag2-search button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    min-width: 100px;
+    height: 42px;
+    border-radius: 5px;
+    background: #076b9f;
+    font-size: 13px;
+    transition: background 0.2s;
+}
+
+.ag2-search button:hover {
+    background: #064e79;
+}
+
+.ag2-search button svg {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+}
+
+/* 4. WHATSAPP MODERNO */
+
+.ag2-whatsapp {
+    gap: 10px;
+    padding-left: 22px;
+    transition: transform 0.2s ease;
+}
+
+.ag2-whatsapp:hover {
+    transform: translateY(-2px);
+}
+
+.ag2-wa-svg {
+    width: 34px;
+    height: 34px;
+    color: #10a65a;
+    flex-shrink: 0;
+}
+
+.ag2-whatsapp strong {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1.35;
+}
+
+.ag2-whatsapp small {
+    font-size: 11px;
+}
+
+/* 5. MENU INFERIOR REFINADO */
+
+.ag2-navigation {
+    background: linear-gradient(
+        90deg,
+        #0877ac 0%,
+        #07598d 55%,
+        #073e68 100%
+    );
+    border-bottom: 3px solid #10b0df;
+}
+
+.ag2-desktop-menu {
+    min-height: 54px;
+}
+
+.ag2-desktop-menu a {
+    min-height: 54px;
+    padding: 13px 15px;
+    font-size: 12px;
+    letter-spacing: 0.7px;
+    transition: background 0.2s ease;
+}
+
+.ag2-desktop-menu a:hover {
+    background: rgba(255,255,255,0.10);
+    box-shadow: inset 0 -3px 0 #46d3f5;
+}
+
+.ag2-desktop-menu a.ag2-active {
+    background: rgba(0, 166, 221, 0.30);
+    box-shadow: inset 0 -3px 0 #46d3f5;
+}
+
+/* 6. TABLETS */
+
+@media (min-width: 769px) and (max-width: 1100px) {
+    .ag2-main {
+        grid-template-columns: minmax(220px, 350px) 1fr;
+        gap: 20px;
+    }
+
+    .ag2-whatsapp {
+        grid-column: 2;
+        padding-left: 0;
+        border-left: 0;
+    }
+
+    .ag2-contact-info {
+        gap: 12px;
+    }
+}
+
+/* 7. CELULARES */
+
+@media (max-width: 768px) {
+    .ag2-top-content {
+        min-height: 34px;
+    }
+
+    .ag2-contact-info {
+        gap: 8px;
+    }
+
+    .ag2-main {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 14px;
+        padding: 17px 0;
+    }
+
+    .ag2-logo img {
+        max-width: 380px;
+    }
+
+    .ag2-search {
+        height: 48px;
+    }
+
+    .ag2-search button {
+        min-width: 82px;
+        height: 40px;
+    }
+
+    .ag2-whatsapp {
+        padding-left: 0;
+        border-left: 0;
+    }
+
+    .ag2-wa-svg {
+        width: 28px;
+        height: 28px;
+    }
+
+    .ag2-desktop-menu {
+        display: none;
+    }
+
+    .ag2-mobile-menu {
+        display: block;
+    }
+}
+
+
+/* MENU MOVIL - AJUSTES FINALES */
+
+@media (max-width: 768px) {
+
+    .ag2-mobile-menu summary {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style: none;
+        padding: 15px 8px;
+        cursor: pointer;
+    }
+
+    .ag2-mobile-menu summary::-webkit-details-marker {
+        display: none;
+    }
+
+    .ag2-mobile-menu summary::marker {
+        content: "";
+    }
+
+    .ag2-menu-label {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .ag2-menu-chevron {
+        font-size: 22px;
+        transition: transform 0.2s ease;
+    }
+
+    .ag2-mobile-menu[open] .ag2-menu-chevron {
+        transform: rotate(180deg);
+    }
+
+    .ag2-mobile-menu nav a {
+        padding: 13px 14px;
+        font-size: 13px;
+        border-top: 1px solid rgba(255,255,255,0.12);
+    }
+
+    .ag2-mobile-menu nav a:hover,
+    .ag2-mobile-menu nav a:focus-visible {
+        background: rgba(255,255,255,0.12);
+    }
+}
+
+
+
+/* ==========================================
+   AGROMATIC - MENU MODERNO CON ICONOS
+   ========================================== */
+
+.ag2-navigation {
+    background: linear-gradient(
+        90deg,
+        #06416c 0%,
+        #075e92 50%,
+        #07375e 100%
+    );
+}
+
+/* Distribucion de cuatro opciones */
+
+.ag2-navigation .ag2-desktop-menu.ag2-menu-icons {
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+}
+
+/* Cada opcion ocupa el mismo ancho */
+
+.ag2-navigation .ag2-desktop-menu.ag2-menu-icons > a {
+    display: flex;
+    flex: 1 1 25%;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    min-width: 0;
+    min-height: 58px;
+    padding: 14px 12px;
+    color: #ffffff;
+    background: transparent;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    transition: background-color .2s ease;
+}
+
+/* Iconos */
+
+.ag2-navigation .ag2-menu-icons > a svg {
+    display: block;
+    flex-shrink: 0;
+    width: 23px;
+    height: 23px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.9;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+/* Hover */
+
+.ag2-navigation .ag2-menu-icons > a:hover {
+    background: #087fb4;
+    color: #ffffff;
+}
+
+/* Opcion activa */
+
+.ag2-navigation .ag2-menu-icons > a.ag2-active,
+.ag2-navigation .ag2-menu-icons > a.ag2-active:hover {
+    color: #ffffff;
+    background: linear-gradient(
+        110deg,
+        #0096d2,
+        #0ac4ed
+    );
+    box-shadow: inset 0 -4px 0 #42e3fa;
+}
+
+/* Accesibilidad */
+
+.ag2-navigation .ag2-menu-icons > a:focus-visible {
+    outline: 3px solid #7be9ff;
+    outline-offset: -4px;
+}
+
+/* Escritorios medianos */
+
+@media (min-width: 768px) and (max-width: 1000px) {
+    .ag2-navigation .ag2-menu-icons > a {
+        gap: 7px;
+        padding: 12px 6px;
+        font-size: 12px;
+    }
+
+    .ag2-navigation .ag2-menu-icons > a svg {
+        width: 19px;
+        height: 19px;
+    }
+}
+
+@media (min-width: 768px) {
+    .ag2-navigation .ag2-desktop-menu.ag2-menu-icons > a {
+        min-height: 60px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+}
+
+
+/* ==========================================
+   AGROMATIC - CORRECCIÓN MENÚ RESPONSIVE
+   ========================================== */
+
+/* CELULARES */
+
+@media (max-width: 767px) {
+
+    /* Ocultar completamente el menú de escritorio */
+
+    .ag2-navigation .ag2-desktop-menu.ag2-menu-icons {
+        display: none !important;
+    }
+
+    /* Mostrar únicamente el menú móvil */
+
+    .ag2-navigation .ag2-mobile-menu {
+        display: block !important;
+        width: 100%;
+    }
+
+    /* Cabecera del desplegable */
+
+    .ag2-navigation .ag2-mobile-menu summary {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        cursor: pointer;
+    }
+
+}
+
+/* ESCRITORIO Y TABLETS GRANDES */
+
+@media (min-width: 768px) {
+
+    /* Mostrar el menú horizontal */
+
+    .ag2-navigation .ag2-desktop-menu.ag2-menu-icons {
+        display: flex;
+    }
+
+    /* Ocultar el menú móvil */
+
+    .ag2-navigation .ag2-mobile-menu {
+        display: none !important;
+    }
+
+}
+
+/* FIN CORRECCIÓN RESPONSIVE */
+
+
+/* ==========================================
+   AGROMATIC - MENU STICKY
+   Navegacion visible al desplazarse
+   ========================================== */
+
+.agm-menu-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+}
+
+/* Evita que el menu tape el contenido
+   al navegar hacia una seccion */
+
+html {
+    scroll-padding-top: 85px;
+}
+
+/* Mantener el menu estable en celulares */
+
+@media (max-width: 767px) {
+    .agm-menu-sticky {
+        top: 0;
+    }
+
+    html {
+        scroll-padding-top: 65px;
+    }
+}

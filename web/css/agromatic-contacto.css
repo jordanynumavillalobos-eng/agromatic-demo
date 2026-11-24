@@ -1,0 +1,611 @@
+
+/* ==========================================
+   AGROMATIC - CONTACTANOS V1
+   ========================================== */
+
+.agm-contacto,
+.agm-contacto * {
+    box-sizing: border-box;
+}
+
+.agm-contacto {
+    width: 100%;
+    background: #f7fbfe;
+    color: #073766;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.agm-contacto-sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.agm-contacto-container {
+    width: calc(100% - 48px);
+    max-width: 1380px;
+    margin: 0 auto;
+}
+
+/* BANNER */
+
+.agm-contacto-banner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background: #073766;
+    border-bottom: 4px solid #0cc6e8;
+}
+
+.agm-contacto-banner img {
+    display: block;
+    width: 100%;
+    max-width: none;
+    height: auto;
+}
+
+.agm-contacto-banner-mobile {
+    display: none;
+}
+
+/* BREADCRUMB */
+
+.agm-contacto-breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-height: 52px;
+    font-size: 13px;
+    color: #637f96;
+}
+
+.agm-contacto-breadcrumb a {
+    color: #067ca9;
+    text-decoration: none;
+}
+
+/* DISTRIBUCION */
+
+.agm-contacto-layout {
+    display: grid;
+    grid-template-columns:
+        minmax(0, 1.35fr)
+        minmax(310px, .85fr);
+    gap: 36px;
+    align-items: start;
+    margin-bottom: 50px;
+}
+
+.agm-contacto-form-section,
+.agm-contacto-info {
+    min-width: 0;
+}
+
+/* TITULOS */
+
+.agm-contacto-section-heading {
+    margin-bottom: 21px;
+}
+
+.agm-contacto-section-heading h2 {
+    margin: 0 0 10px;
+    padding-left: 15px;
+    border-left: 5px solid #06bde5;
+    color: #073766;
+    font-size: clamp(23px, 2.1vw, 31px);
+    font-weight: 800;
+    line-height: 1.25;
+}
+
+.agm-contacto-section-heading p {
+    margin: 0;
+    padding-left: 20px;
+    color: #55718b;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+/* FORMULARIO */
+
+.agm-contacto-form-card {
+    padding: 29px;
+    background: #ffffff;
+    border: 1px solid #deedf7;
+    border-radius: 17px;
+    box-shadow: 0 8px 25px rgba(5, 74, 118, .07);
+}
+
+.agm-contacto-fields {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 22px 18px;
+}
+
+.agm-contacto-field {
+    min-width: 0;
+}
+
+.agm-contacto-field-full {
+    grid-column: 1 / -1;
+}
+
+.agm-contacto-field label {
+    display: block;
+    margin-bottom: 9px;
+    color: #073766;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.agm-contacto-field label span {
+    color: #069fc3;
+}
+
+.agm-contacto-field input,
+.agm-contacto-field textarea {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    padding: 12px 14px;
+
+    border: 1px solid #d5e5ee;
+    border-radius: 8px;
+
+    background: #ffffff;
+    color: #163f60;
+
+    font: inherit;
+    font-size: 14px;
+    line-height: 1.5;
+
+    outline: none;
+    transition: border-color .2s, box-shadow .2s;
+}
+
+.agm-contacto-field input {
+    min-height: 49px;
+}
+
+.agm-contacto-field textarea {
+    min-height: 135px;
+    resize: vertical;
+}
+
+.agm-contacto-field input:focus,
+.agm-contacto-field textarea:focus {
+    border-color: #00abd0;
+    box-shadow: 0 0 0 3px rgba(0, 171, 208, .14);
+}
+
+.agm-contacto-field input::placeholder,
+.agm-contacto-field textarea::placeholder {
+    color: #8599ac;
+}
+
+.agm-contacto-field input[readonly] {
+    background: #f2f7fa;
+}
+
+/* ENVIO */
+
+.agm-contacto-submit-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 28px;
+}
+
+.agm-contacto-submit {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    min-width: 240px;
+    min-height: 46px;
+    padding: 12px 23px;
+
+    border: 0;
+    border-radius: 28px;
+
+    background: linear-gradient(
+        100deg,
+        #04add1,
+        #07588c
+    );
+
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+
+    cursor: pointer;
+    box-shadow: 0 7px 16px rgba(5, 94, 139, .16);
+}
+
+.agm-contacto-submit:hover {
+    background: #07588c;
+}
+
+.agm-contacto-submit svg {
+    width: 20px;
+    height: 20px;
+}
+
+.agm-contacto-required {
+    margin: 0;
+    color: #698097;
+    font-size: 12px;
+    text-align: center;
+}
+
+.agm-contacto-success,
+.agm-contacto-errors {
+    margin-bottom: 22px;
+    padding: 15px;
+    border-radius: 9px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.agm-contacto-success {
+    background: #e9f8ee;
+    border: 1px solid #b8e7c7;
+    color: #176039;
+}
+
+.agm-contacto-errors {
+    background: #fff2f2;
+    border: 1px solid #efc9c9;
+    color: #8c2525;
+}
+
+.agm-contacto-errors ul {
+    margin: 8px 0 0;
+    padding-left: 20px;
+}
+
+/* INFORMACION */
+
+.agm-contacto-info-card {
+    padding: 13px;
+    background: #ffffff;
+    border: 1px solid #deedf7;
+    border-radius: 17px;
+    box-shadow: 0 8px 25px rgba(5, 74, 118, .07);
+}
+
+.agm-contacto-info-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    padding: 18px 15px;
+    border-radius: 10px;
+}
+
+.agm-contacto-info-item:nth-child(odd) {
+    background: #eff9fe;
+}
+
+.agm-contacto-info-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 45px;
+    height: 45px;
+    flex: 0 0 45px;
+
+    border-radius: 10px;
+    background: #087cae;
+    color: #ffffff;
+}
+
+.agm-contacto-info-icon svg {
+    width: 23px;
+    height: 23px;
+}
+
+.agm-contacto-icon-green {
+    background: #09a75e;
+}
+
+.agm-contacto-info-item > div:last-child {
+    min-width: 0;
+}
+
+.agm-contacto-info-item strong {
+    display: block;
+    margin-bottom: 5px;
+    color: #073766;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.agm-contacto-info-item a,
+.agm-contacto-info-item span:not(.agm-contacto-info-icon) {
+    display: block;
+    color: #355673;
+    font-size: 13px;
+    line-height: 1.65;
+    text-decoration: none;
+    overflow-wrap: anywhere;
+}
+
+.agm-contacto-info-item a:hover {
+    color: #0589b3;
+    text-decoration: underline;
+}
+
+/* MAPA */
+
+.agm-contacto-location {
+    padding-bottom: 35px;
+}
+
+.agm-contacto-map {
+    height: 360px;
+    overflow: hidden;
+
+    background: #e9f3f8;
+    border: 1px solid #d5e7f2;
+    border-radius: 15px;
+
+    box-shadow: 0 7px 20px rgba(4, 66, 111, .06);
+}
+
+.agm-contacto-map iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.agm-contacto-map-link {
+    display: inline-block;
+    margin-top: 12px;
+
+    color: #087cae;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.agm-contacto-map-link:hover {
+    text-decoration: underline;
+}
+
+/* BENEFICIOS */
+
+.agm-contacto-benefits {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+
+    padding-bottom: 45px;
+}
+
+.agm-contacto-benefit {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    min-width: 0;
+    padding: 21px;
+
+    background: #f0faff;
+    border: 1px solid #dcecf6;
+    border-radius: 13px;
+}
+
+.agm-contacto-benefit-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 47px;
+    height: 47px;
+    flex: 0 0 47px;
+
+    color: #079bc7;
+    font-size: 34px;
+    line-height: 1;
+}
+
+.agm-contacto-benefit strong {
+    display: block;
+    margin-bottom: 5px;
+    color: #073766;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.agm-contacto-benefit p {
+    margin: 0;
+    color: #52718b;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+/* ACCESIBILIDAD */
+
+.agm-contacto a:focus-visible,
+.agm-contacto button:focus-visible {
+    outline: 3px solid #08bedb;
+    outline-offset: 3px;
+}
+
+/* TABLET */
+
+@media (max-width: 1050px) {
+
+    .agm-contacto-layout {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 35px;
+    }
+
+    .agm-contacto-info-card {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 8px;
+    }
+
+    .agm-contacto-info-item {
+        background: #eff9fe;
+    }
+}
+
+/* CELULAR */
+
+@media (max-width: 767px) {
+
+    .agm-contacto-container {
+        width: calc(100% - 32px);
+    }
+
+    /* Banner adaptado, sin repetir el texto impreso */
+
+    .agm-contacto-banner {
+        height: 230px;
+        background:
+            linear-gradient(
+                90deg,
+                rgba(3, 44, 81, .93),
+                rgba(3, 44, 81, .48)
+            ),
+            url('../img/contacto-banner.png')
+            68% center / cover no-repeat;
+    }
+
+    .agm-contacto-banner img {
+        display: none;
+    }
+
+    .agm-contacto-banner-mobile {
+        position: absolute;
+        inset: 0;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        padding: 24px;
+        color: #ffffff;
+    }
+
+    .agm-contacto-banner-mobile h2 {
+        margin: 0 0 13px;
+        padding-left: 13px;
+        border-left: 5px solid #09ccea;
+
+        color: #ffffff;
+        font-size: 31px;
+        font-weight: 800;
+    }
+
+    .agm-contacto-banner-mobile p {
+        max-width: 280px;
+        margin: 0;
+
+        color: #ffffff;
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .agm-contacto-fields {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 17px;
+    }
+
+    .agm-contacto-form-card {
+        padding: 20px 16px;
+    }
+
+    .agm-contacto-section-heading h2 {
+        font-size: 25px;
+    }
+
+    .agm-contacto-section-heading p {
+        font-size: 14px;
+    }
+
+    .agm-contacto-info-card {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .agm-contacto-info-item {
+        padding: 16px 13px;
+    }
+
+    .agm-contacto-map {
+        height: 300px;
+    }
+
+    .agm-contacto-benefits {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 11px;
+    }
+
+    .agm-contacto-benefit {
+        padding: 17px;
+    }
+
+    .agm-contacto-submit {
+        width: 100%;
+        min-width: 0;
+    }
+}
+
+/* FIN AGROMATIC CONTACTANOS V1 */
+
+
+/* ==========================================
+   CORRECCION ICONOS CONTACTANOS V2
+   ========================================== */
+
+/* Iconos blancos de información de contacto */
+
+.agm-contacto .agm-contacto-info-icon svg {
+    width: 24px;
+    height: 24px;
+    color: #ffffff !important;
+    fill: none !important;
+    stroke: #ffffff !important;
+    stroke-width: 2 !important;
+}
+
+.agm-contacto .agm-contacto-info-icon svg * {
+    fill: none !important;
+    stroke: #ffffff !important;
+    stroke-width: 2 !important;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+/* Iconos azules de los beneficios inferiores */
+
+.agm-contacto .agm-contacto-benefit-icon svg {
+    width: 38px;
+    height: 38px;
+    color: #078bbf !important;
+    fill: none !important;
+    stroke: #078bbf !important;
+    stroke-width: 1.8 !important;
+}
+
+.agm-contacto .agm-contacto-benefit-icon svg * {
+    fill: none !important;
+    stroke: #078bbf !important;
+    stroke-width: 1.8 !important;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+/* FIN CORRECCION ICONOS */

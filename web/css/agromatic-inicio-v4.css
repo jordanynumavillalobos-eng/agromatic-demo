@@ -1,0 +1,1961 @@
+
+/* ==============================================
+   AGROMATIC - INICIO V4
+   Nuevas secciones de la página principal
+   ============================================== */
+
+.agm-v4-container {
+    width: calc(100% - 48px);
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+.agm-v4-benefits,
+.agm-v4-categories,
+.agm-v4-services,
+.agm-v4-projects,
+.agm-v4-cta {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.agm-v4-benefits *,
+.agm-v4-categories *,
+.agm-v4-services *,
+.agm-v4-projects *,
+.agm-v4-cta * {
+    box-sizing: border-box;
+}
+
+.agm-v4-icon {
+    width: 32px;
+    height: 32px;
+    flex: none;
+    color: #087eb4;
+}
+
+/* BENEFICIOS */
+
+.agm-v4-benefits {
+    padding: 18px 0 25px;
+    background: linear-gradient(180deg, #eaf7ff, #f6fbfe);
+}
+
+.agm-v4-benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 12px;
+}
+
+.agm-v4-benefit {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    min-height: 76px;
+    padding: 17px 20px;
+    background: #fff;
+    border: 1px solid #d9e9f4;
+    border-radius: 15px;
+    box-shadow: 0 6px 17px rgba(7, 55, 102, .06);
+}
+
+.agm-v4-benefit span {
+    color: #0a3560;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.35;
+}
+
+/* TITULOS DE SECCION */
+
+.agm-v4-section-head {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.agm-v4-section-head h2 {
+    margin: 0 0 10px;
+    color: #073766;
+    font-size: clamp(26px, 3vw, 37px);
+    font-weight: 800;
+    line-height: 1.18;
+}
+
+.agm-v4-section-head h2::before,
+.agm-v4-section-head h2::after {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 3px;
+    margin: 0 16px;
+    vertical-align: middle;
+    background: #13b9df;
+}
+
+.agm-v4-section-head p {
+    max-width: 640px;
+    margin: 0 auto;
+    color: #506e84;
+    font-size: 14px;
+    line-height: 1.65;
+}
+
+/* CATEGORIAS */
+
+.agm-v4-categories {
+    padding: 61px 0 66px;
+    background: linear-gradient(180deg, #f7fcff, #fff);
+}
+
+.agm-v4-categories-grid {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.agm-v4-category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 172px;
+    padding: 19px 14px 15px;
+    border: 1px solid #dceaf3;
+    border-radius: 17px;
+    background: #fff;
+    color: #073766 !important;
+    text-align: center;
+    text-decoration: none !important;
+    box-shadow: 0 8px 21px rgba(7, 55, 102, .06);
+    transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.agm-v4-category:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 14px 31px rgba(7, 55, 102, .12);
+}
+
+.agm-v4-category-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 66px;
+    height: 66px;
+    margin-bottom: 16px;
+    border-radius: 15px;
+    background: linear-gradient(135deg, #e9f8ff, #d4f3fc);
+}
+
+.agm-v4-category-icon .agm-v4-icon {
+    width: 37px;
+    height: 37px;
+}
+
+.agm-v4-category-title {
+    min-height: 38px;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 1.3;
+}
+
+.agm-v4-category-more {
+    margin-top: 13px;
+    color: #087eb4;
+    font-size: 11px;
+}
+
+.agm-v4-categories-note {
+    margin: 23px 0 0;
+    color: #688194;
+    font-size: 12px;
+    text-align: center;
+}
+
+/* PRODUCTOS DESTACADOS */
+
+.agm-v4-featured-wrap .agm-live-products .content-title {
+    margin-bottom: 30px;
+}
+
+.agm-v4-featured-wrap .agm-live-products .title {
+    font-size: clamp(28px, 3vw, 38px);
+}
+
+/* SERVICIOS */
+
+.agm-v4-services {
+    padding: 53px 0 62px;
+    background: linear-gradient(
+        115deg,
+        #063662,
+        #086795 60%,
+        #087ea9
+    );
+}
+
+.agm-v4-services .agm-v4-section-head h2 {
+    color: #fff;
+}
+
+.agm-v4-services .agm-v4-section-head p {
+    color: #d5ecf8;
+}
+
+.agm-v4-services-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 17px;
+}
+
+.agm-v4-service {
+    min-height: 209px;
+    padding: 25px 17px;
+    background: #fff;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(2, 36, 63, .15);
+}
+
+.agm-v4-service-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 13px;
+    border-radius: 50%;
+    background: #e9f8ff;
+}
+
+.agm-v4-service-icon .agm-v4-icon {
+    width: 36px;
+    height: 36px;
+}
+
+.agm-v4-service h3 {
+    margin: 0 0 10px;
+    color: #093a68;
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.agm-v4-service p {
+    margin: 0;
+    color: #526c80;
+    font-size: 13px;
+    line-height: 1.55;
+}
+
+/* PROYECTOS */
+
+.agm-v4-projects {
+    padding: 61px 0 66px;
+    background: linear-gradient(180deg, #fff, #f3faff);
+}
+
+.agm-v4-projects-grid {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 14px;
+}
+
+.agm-v4-project {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    overflow: hidden;
+    border: 1px solid #dceaf3;
+    border-radius: 16px;
+    background: #fff;
+    text-decoration: none !important;
+    box-shadow: 0 9px 23px rgba(7, 55, 102, .07);
+    transition: box-shadow .2s ease;
+}
+
+.agm-v4-project:hover {
+    box-shadow: 0 16px 35px rgba(7, 55, 102, .14);
+}
+
+.agm-v4-project img {
+    display: block;
+    width: 100%;
+    height: 135px;
+    object-fit: cover;
+    background: #e6f3fa;
+}
+
+.agm-v4-project-detail {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 8px;
+    padding: 15px 14px;
+    color: #093a68;
+}
+
+.agm-v4-project-detail strong {
+    font-size: 14px;
+    line-height: 1.35;
+}
+
+.agm-v4-project-detail small {
+    color: #55738a;
+    font-size: 12px;
+    line-height: 1.4;
+}
+
+/* CONTACTO - CTA */
+
+.agm-v4-cta {
+    padding: 22px 0 54px;
+    background: #f3faff;
+}
+
+.agm-v4-cta-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 36px 42px;
+    border-radius: 20px;
+    background: linear-gradient(
+        110deg,
+        #07345e,
+        #056497 78%,
+        #06aace
+    );
+    box-shadow: 0 16px 32px rgba(7, 55, 102, .14);
+}
+
+.agm-v4-cta h2 {
+    margin: 0 0 10px;
+    color: #fff;
+    font-size: clamp(23px, 2.4vw, 31px);
+    font-weight: 800;
+    line-height: 1.25;
+}
+
+.agm-v4-cta p {
+    margin: 0;
+    color: #dbeef9;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.agm-v4-cta-actions {
+    display: flex;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.agm-v4-cta-button,
+.agm-v4-cta-secondary {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 45px;
+    padding: 12px 19px;
+    border-radius: 25px;
+    font-size: 13px;
+    font-weight: 700;
+    white-space: nowrap;
+    text-decoration: none !important;
+}
+
+.agm-v4-cta-button {
+    background: #fff;
+    color: #074b7c !important;
+}
+
+.agm-v4-cta-secondary {
+    border: 1px solid #9de4f4;
+    color: #fff !important;
+}
+
+.agm-v4-category:focus-visible,
+.agm-v4-project:focus-visible,
+.agm-v4-cta a:focus-visible {
+    outline: 3px solid #13b9df;
+    outline-offset: 3px;
+}
+
+/* TABLETS */
+
+@media (max-width: 1100px) {
+    .agm-v4-categories-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .agm-v4-projects-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .agm-v4-benefits-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 800px) {
+    .agm-v4-services-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .agm-v4-cta-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .agm-v4-categories,
+    .agm-v4-projects {
+        padding: 44px 0;
+    }
+}
+
+/* CELULARES */
+
+@media (max-width: 600px) {
+    .agm-v4-container {
+        width: calc(100% - 32px);
+    }
+
+    .agm-v4-benefits-grid,
+    .agm-v4-services-grid,
+    .agm-v4-projects-grid,
+    .agm-v4-categories-grid {
+        gap: 10px;
+    }
+
+    .agm-v4-benefit {
+        min-height: 85px;
+        padding: 12px 10px;
+        gap: 9px;
+    }
+
+    .agm-v4-benefit .agm-v4-icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    .agm-v4-benefit span {
+        font-size: 12px;
+    }
+
+    .agm-v4-categories-grid,
+    .agm-v4-projects-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .agm-v4-category {
+        min-height: 150px;
+        padding: 13px 10px;
+    }
+
+    .agm-v4-category-icon {
+        width: 52px;
+        height: 52px;
+        margin-bottom: 9px;
+    }
+
+    .agm-v4-category-title {
+        font-size: 12px;
+    }
+
+    .agm-v4-category-more {
+        font-size: 10px;
+    }
+
+    .agm-v4-services-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .agm-v4-service {
+        min-height: 208px;
+        padding: 18px 10px;
+    }
+
+    .agm-v4-service h3 {
+        font-size: 14px;
+    }
+
+    .agm-v4-service p {
+        font-size: 12px;
+    }
+
+    .agm-v4-project img {
+        height: 105px;
+    }
+
+    .agm-v4-project-detail {
+        padding: 12px 10px;
+    }
+
+    .agm-v4-project-detail strong {
+        font-size: 12px;
+    }
+
+    .agm-v4-project-detail small {
+        font-size: 10px;
+    }
+
+    .agm-v4-cta-content {
+        padding: 27px 22px;
+    }
+
+    .agm-v4-cta-actions {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .agm-v4-cta-button,
+    .agm-v4-cta-secondary {
+        flex: 1;
+    }
+
+    .agm-v4-section-head h2::before,
+    .agm-v4-section-head h2::after {
+        display: none;
+    }
+
+    .agm-v4-section-head h2 {
+        display: inline-block;
+        padding-bottom: 9px;
+        border-bottom: 3px solid #13b9df;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .agm-v4-category,
+    .agm-v4-project {
+        transition: none;
+    }
+
+    .agm-v4-category:hover {
+        transform: none;
+    }
+}
+
+
+/* =====================================================
+   AGROMATIC - BIENVENIDA V5
+   Diseño abierto, sin tarjeta exterior
+   ===================================================== */
+
+/* Fondo general */
+
+.agm-about {
+    width: 100%;
+    margin: 0;
+    padding: 75px 24px 80px;
+    background: linear-gradient(
+        180deg,
+        #ffffff 0%,
+        #f8fcff 100%
+    );
+}
+
+/* Eliminar completamente el efecto de tarjeta */
+
+.agm-about .agm-about-container {
+    width: 100%;
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 0;
+
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+
+    overflow: visible;
+}
+
+/* Eliminar adornos de las esquinas */
+
+.agm-about .agm-about-container::before,
+.agm-about .agm-about-container::after {
+    display: none !important;
+    content: none;
+}
+
+/* Distribución de contenido */
+
+.agm-about .agm-about-layout {
+    display: grid;
+    grid-template-columns:
+        minmax(0, 0.95fr)
+        minmax(0, 1.05fr);
+
+    align-items: center;
+    gap: 55px;
+}
+
+/* Columna de texto */
+
+.agm-about .agm-about-content {
+    min-width: 0;
+}
+
+/* Título */
+
+.agm-about .agm-about-content h2 {
+    margin: 0 0 24px;
+    padding-left: 20px;
+
+    border-left: 6px solid #0bbce3;
+
+    color: #073766;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: clamp(30px, 2.7vw, 43px);
+    font-weight: 800;
+    line-height: 1.15;
+    letter-spacing: -1px;
+}
+
+/* Descripción */
+
+.agm-about .agm-about-description {
+    max-width: 630px;
+    margin: 0 0 18px;
+
+    color: #173c61;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.agm-about .agm-about-description:last-of-type {
+    margin-bottom: 25px;
+}
+
+/* Fotografía inclinada */
+
+.agm-about .agm-about-visual {
+    position: relative;
+    min-width: 0;
+
+    margin: 0 20px;
+    overflow: hidden;
+
+    border: 6px solid #ffffff;
+    border-radius: 34px;
+
+    transform: skewX(-7deg);
+
+    box-shadow:
+        0 14px 32px rgba(7, 55, 102, .12);
+}
+
+/* Corregir inclinación de las personas y equipos */
+
+.agm-about .agm-about-visual img {
+    display: block;
+    width: 100%;
+    height: 355px;
+    max-width: none;
+
+    aspect-ratio: auto;
+    object-fit: cover;
+    object-position: center;
+
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+
+    transform: skewX(7deg) scale(1.16);
+}
+
+/* Botón principal */
+
+.agm-about .agm-about-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+
+    min-height: 45px;
+    padding: 12px 25px;
+
+    border-radius: 28px;
+    border: none;
+
+    background: linear-gradient(
+        110deg,
+        #00aed4,
+        #07548a
+    );
+
+    color: #ffffff !important;
+
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none !important;
+
+    box-shadow:
+        0 5px 14px rgba(7, 84, 138, .15);
+
+    transition:
+        transform .2s ease,
+        box-shadow .2s ease;
+}
+
+.agm-about .agm-about-button:hover {
+    color: #ffffff !important;
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 9px 20px rgba(7, 84, 138, .23);
+}
+
+.agm-about .agm-about-button:focus-visible {
+    outline: 3px solid #0bbce3;
+    outline-offset: 4px;
+}
+
+/* Tablets */
+
+@media (max-width: 1024px) {
+
+    .agm-about {
+        padding: 55px 24px;
+    }
+
+    .agm-about .agm-about-layout {
+        gap: 30px;
+    }
+
+    .agm-about .agm-about-content h2 {
+        font-size: 33px;
+    }
+
+    .agm-about .agm-about-description {
+        font-size: 14px;
+    }
+
+    .agm-about .agm-about-visual img {
+        height: 310px;
+    }
+}
+
+/* Celulares */
+
+@media (max-width: 767px) {
+
+    .agm-about {
+        padding: 43px 18px 50px;
+    }
+
+    .agm-about .agm-about-container {
+        padding: 0;
+    }
+
+    .agm-about .agm-about-layout {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 30px;
+    }
+
+    .agm-about .agm-about-content h2 {
+        font-size: 29px;
+        margin-bottom: 21px;
+        letter-spacing: -.5px;
+    }
+
+    .agm-about .agm-about-description {
+        font-size: 14px;
+        line-height: 1.75;
+    }
+
+    .agm-about .agm-about-visual {
+        margin: 0;
+        border: 4px solid #ffffff;
+        border-radius: 18px;
+        transform: none;
+    }
+
+    .agm-about .agm-about-visual img {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 10;
+        transform: none;
+    }
+
+    .agm-about .agm-about-button {
+        font-size: 13px;
+        min-height: 43px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .agm-about .agm-about-button {
+        transition: none;
+    }
+
+    .agm-about .agm-about-button:hover {
+        transform: none;
+    }
+}
+
+/* FIN BIENVENIDA V5 */
+
+
+/* ==========================================
+   AGROMATIC - CATEGORÍAS CON FOTOGRAFÍAS
+   ========================================== */
+
+.agm-v4-categories {
+    padding: 60px 0 65px;
+    background: linear-gradient(
+        180deg,
+        #f7fcff 0%,
+        #ffffff 100%
+    );
+}
+
+/* Cuadrícula de seis categorías */
+
+.agm-v4-categories .agm-v4-categories-grid {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 16px;
+}
+
+/* Tarjeta */
+
+.agm-v4-categories .agm-v4-category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    min-height: 270px;
+    min-width: 0;
+    padding: 15px 13px 18px;
+
+    background: #ffffff;
+    border: 1px solid #dceaf3;
+    border-radius: 18px;
+
+    text-align: center;
+    text-decoration: none !important;
+
+    box-shadow: 0 8px 22px rgba(7,55,102,.06);
+
+    transition:
+        transform .2s ease,
+        box-shadow .2s ease;
+}
+
+.agm-v4-categories .agm-v4-category:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 14px 30px rgba(7,55,102,.13);
+}
+
+/* Contenedor de la fotografía */
+
+.agm-v4-categories .agm-v4-category-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 145px;
+    min-height: 145px;
+
+    margin: 0 0 14px;
+    padding: 3px;
+
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* Fotografía del producto */
+
+.agm-v4-categories .agm-v4-category-icon img {
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    max-width: 100%;
+    max-height: 100%;
+
+    object-fit: contain;
+    object-position: center;
+}
+
+/* Nombre de categoría */
+
+.agm-v4-categories .agm-v4-category-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 44px;
+    width: 100%;
+
+    color: #073766;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 1.35;
+}
+
+/* Enlace inferior */
+
+.agm-v4-categories .agm-v4-category-more {
+    display: block;
+
+    margin-top: auto;
+    padding-top: 14px;
+
+    color: #087eb4;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+/* Accesibilidad */
+
+.agm-v4-categories .agm-v4-category:focus-visible {
+    outline: 3px solid #13b9df;
+    outline-offset: 3px;
+}
+
+/* TABLET */
+
+@media (max-width: 1100px) {
+    .agm-v4-categories .agm-v4-categories-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+/* CELULARES */
+
+@media (max-width: 600px) {
+
+    .agm-v4-categories {
+        padding: 42px 0 48px;
+    }
+
+    .agm-v4-categories .agm-v4-categories-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+    }
+
+    .agm-v4-categories .agm-v4-category {
+        min-height: 222px;
+        padding: 12px 9px 15px;
+    }
+
+    .agm-v4-categories .agm-v4-category-icon {
+        height: 112px;
+        min-height: 112px;
+        margin-bottom: 10px;
+    }
+
+    .agm-v4-categories .agm-v4-category-title {
+        font-size: 12px;
+        min-height: 40px;
+    }
+
+    .agm-v4-categories .agm-v4-category-more {
+        font-size: 10px;
+        padding-top: 10px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .agm-v4-categories .agm-v4-category {
+        transition: none;
+    }
+
+    .agm-v4-categories .agm-v4-category:hover {
+        transform: none;
+    }
+}
+
+/* FIN CATEGORÍAS CON FOTOGRAFÍAS */
+
+
+/* ==================================================
+   AGROMATIC - PRODUCTOS DESTACADOS V6
+   Seis tarjetas visibles + catalogo completo
+   ================================================== */
+
+/* ====================================
+   VISTA PREVIA - LIVE SERVER
+   ==================================== */
+
+.agm-products--six {
+    padding: 45px 0 65px;
+    background: linear-gradient(
+        180deg,
+        #f5fbff 0%,
+        #ffffff 65%,
+        #e5f7ff 100%
+    );
+}
+
+.agm-products--six,
+.agm-products--six * {
+    box-sizing: border-box;
+}
+
+.agm-products--six .agm-products-container {
+    width: calc(100% - 48px);
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.agm-products--six .agm-products-header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 28px;
+    padding: 0 115px;
+}
+
+.agm-products--six .agm-products-heading {
+    text-align: center;
+}
+
+.agm-products--six .agm-products-heading h2 {
+    margin: 0 0 10px;
+    color: #073766;
+    font-size: clamp(25px, 3vw, 36px);
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.agm-products--six .agm-products-heading h2::before,
+.agm-products--six .agm-products-heading h2::after {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 3px;
+    margin: 0 15px;
+    vertical-align: middle;
+    background: #11c2e8;
+}
+
+.agm-products--six .agm-products-heading p {
+    margin: 0;
+    color: #56718a;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+/* FLECHAS */
+
+.agm-products--six .agm-products-controls {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    display: flex;
+    gap: 9px;
+    transform: translateY(-50%);
+}
+
+.agm-products--six .agm-products-controls button {
+    width: 41px;
+    height: 41px;
+    border: 1px solid #d3e6f3;
+    border-radius: 11px;
+    background: white;
+    color: #086c9e;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.agm-products--six .agm-products-controls button:disabled {
+    opacity: .35;
+    cursor: default;
+}
+
+/* CARRUSEL HORIZONTAL */
+
+.agm-products--six .agm-products-track {
+    display: flex;
+    gap: 14px;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    padding: 4px 0 12px;
+}
+
+.agm-products--six .agm-products-track::-webkit-scrollbar {
+    display: none;
+}
+
+/* SEIS TARJETAS */
+
+.agm-products--six .agm-product-card {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 calc((100% - 70px) / 6);
+    min-width: 0;
+    min-height: 265px;
+    margin: 0;
+    padding: 11px;
+    border: 1px solid #dbeaf4;
+    border-radius: 16px;
+    background: #ffffff;
+    box-shadow: 0 7px 17px rgba(7, 55, 102, .07);
+    scroll-snap-align: start;
+}
+
+.agm-products--six .agm-product-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 145px;
+    padding: 6px;
+    border-radius: 10px;
+    background: white;
+    overflow: hidden;
+}
+
+.agm-products--six .agm-product-image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.agm-products--six .agm-product-info {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 12px 2px 3px;
+    text-align: center;
+}
+
+.agm-products--six .agm-product-info h3 {
+    margin: 0 0 12px;
+    color: #073766;
+    font-size: 13px;
+    font-weight: 800;
+    line-height: 1.35;
+    overflow-wrap: anywhere;
+}
+
+.agm-products--six .agm-product-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 35px;
+    min-width: 118px;
+    margin-top: auto;
+    padding: 8px 13px;
+    border-radius: 22px;
+    background: linear-gradient(110deg, #04add1, #07568d);
+    color: white !important;
+    font-size: 11px;
+    font-weight: 700;
+    text-decoration: none !important;
+}
+
+/* ====================================
+   LARAVEL - OWL CAROUSEL REAL
+   ==================================== */
+
+.agm-live-products--compact {
+    position: relative;
+    padding: 42px 0 52px;
+}
+
+/* Titulo */
+
+.agm-live-products--compact .content-title {
+    position: relative;
+    margin-bottom: 29px;
+    padding: 0 110px;
+    text-align: center;
+}
+
+.agm-live-products--compact .content-title .title-bg {
+    display: block;
+    width: 100%;
+    margin: 0;
+    background: transparent;
+}
+
+.agm-live-products--compact .content-title .title {
+    margin: 0 0 10px;
+    padding: 0;
+    color: #073766;
+    font-size: clamp(25px, 2.7vw, 36px);
+    font-weight: 800;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.agm-live-products--compact .content-title .title-desc {
+    margin: 0;
+    color: #56718a;
+    font-size: 13px;
+    text-align: center;
+}
+
+/* Flechas originales */
+
+.agm-live-products--compact .carousel-controls {
+    position: absolute;
+    top: 42px;
+    right: 0;
+    z-index: 5;
+    display: flex;
+    gap: 9px;
+    margin: 0;
+}
+
+.agm-live-products--compact .carousel-controls .carousel-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: none;
+    position: static;
+    width: 41px;
+    height: 41px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #d3e6f3;
+    border-radius: 11px;
+    background: #fff;
+    background-image: none;
+    color: #086c9e;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.agm-live-products--compact .carousel-controls .carousel-btn::before,
+.agm-live-products--compact .carousel-controls .carousel-btn::after {
+    content: none;
+}
+
+.agm-live-products--compact .carousel-controls .carousel-btn:hover {
+    background: #087eae;
+    color: #fff;
+}
+
+/* Contenedor Owl */
+
+.agm-live-products--compact #hot-items-slider {
+    width: 100%;
+}
+
+/* Tarjetas dentro de Owl Carousel */
+
+.agm-live-products--compact .agm-live-product {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    min-height: 272px;
+    margin: 4px 6px 12px;
+    padding: 11px;
+    border: 1px solid #dbeaf4;
+    border-radius: 16px;
+    background: #fff;
+    box-shadow: 0 7px 17px rgba(7, 55, 102, .07);
+}
+
+/* Imagen */
+
+.agm-live-products--compact
+.agm-live-product .item-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 145px;
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+    background: white;
+}
+
+.agm-live-products--compact
+.agm-live-product .item-image-container figure,
+.agm-live-products--compact
+.agm-live-product .item-image-container figure a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.agm-live-products--compact
+.agm-live-product .item-image {
+    display: block;
+    width: auto;
+    max-width: 100%;
+    height: 135px;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+/* Evitar imagen duplicada al pasar el cursor */
+
+.agm-live-products--compact
+.agm-live-product .item-image-hover {
+    display: none !important;
+}
+
+/* Nombre y boton */
+
+.agm-live-products--compact
+.agm-live-product .item-meta-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 11px 3px 4px;
+    text-align: center;
+}
+
+.agm-live-products--compact
+.agm-live-product .item-name {
+    min-height: 48px;
+    margin: 0 0 13px;
+    color: #073766;
+    font-size: 13px;
+    font-weight: 800;
+    line-height: 1.35;
+    overflow-wrap: anywhere;
+}
+
+.agm-live-products--compact
+.agm-live-product .item-name a {
+    color: #073766 !important;
+    text-decoration: none;
+}
+
+.agm-live-products--compact
+.agm-live-product .item-action {
+    margin-top: auto;
+}
+
+.agm-live-products--compact
+.agm-live-product .item-add-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    min-height: 36px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 22px;
+    background: linear-gradient(110deg, #04add1, #07568d);
+    color: #fff !important;
+    font-size: 11px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/* ====================================
+   ADAPTACION RESPONSIVE
+   ==================================== */
+
+/* Cuatro tarjetas */
+
+@media (max-width: 1199px) {
+    .agm-products--six .agm-product-card {
+        flex-basis: calc((100% - 42px) / 4);
+    }
+}
+
+/* Tres tarjetas */
+
+@media (max-width: 899px) {
+    .agm-products--six .agm-product-card {
+        flex-basis: calc((100% - 28px) / 3);
+    }
+}
+
+/* Dos tarjetas */
+
+@media (max-width: 650px) {
+    .agm-products--six {
+        padding: 36px 0 48px;
+    }
+
+    .agm-products--six .agm-products-container {
+        width: calc(100% - 28px);
+    }
+
+    .agm-products--six .agm-products-header {
+        justify-content: flex-start;
+        padding: 0 95px 0 0;
+    }
+
+    .agm-products--six .agm-products-heading {
+        text-align: left;
+    }
+
+    .agm-products--six .agm-products-heading h2 {
+        font-size: 22px;
+    }
+
+    .agm-products--six .agm-products-heading h2::before,
+    .agm-products--six .agm-products-heading h2::after {
+        display: none;
+    }
+
+    .agm-products--six .agm-products-heading p {
+        font-size: 11px;
+    }
+
+    .agm-products--six .agm-products-controls button {
+        width: 35px;
+        height: 35px;
+    }
+
+    .agm-products--six .agm-product-card {
+        flex-basis: calc((100% - 12px) / 2);
+        min-height: 230px;
+        padding: 8px;
+    }
+
+    .agm-products--six .agm-product-image {
+        height: 120px;
+    }
+
+    .agm-products--six .agm-product-info h3 {
+        font-size: 11px;
+    }
+
+    .agm-products--six .agm-product-link {
+        min-width: 98px;
+        font-size: 10px;
+    }
+
+    .agm-live-products--compact {
+        padding: 30px 0 42px;
+    }
+
+    .agm-live-products--compact .content-title {
+        padding: 0 85px 0 0;
+        text-align: left;
+    }
+
+    .agm-live-products--compact .content-title .title {
+        font-size: 22px;
+        text-align: left;
+    }
+
+    .agm-live-products--compact .content-title .title-desc {
+        text-align: left;
+        font-size: 11px;
+    }
+
+    .agm-live-products--compact .carousel-controls {
+        top: 32px;
+        gap: 5px;
+    }
+
+    .agm-live-products--compact .carousel-controls .carousel-btn {
+        width: 35px;
+        height: 35px;
+    }
+
+    .agm-live-products--compact .agm-live-product {
+        min-height: 235px;
+        padding: 8px;
+    }
+
+    .agm-live-products--compact
+    .agm-live-product .item-image-container {
+        height: 118px;
+    }
+
+    .agm-live-products--compact
+    .agm-live-product .item-image {
+        height: 108px;
+    }
+
+    .agm-live-products--compact
+    .agm-live-product .item-name {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 350px) {
+    .agm-products--six .agm-product-card {
+        flex-basis: 100%;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .agm-products--six .agm-product-card {
+        scroll-behavior: auto;
+    }
+}
+
+/* FIN AGROMATIC PRODUCTOS DESTACADOS V6 */
+
+
+
+/* ==========================================
+   AGROMATIC - CONTACTO HORIZONTAL V3
+   Fotografia limpia y fondo integrado
+   ========================================== */
+
+.agm-contact-banner,
+.agm-contact-banner * {
+    box-sizing: border-box;
+}
+
+.agm-contact-banner {
+    padding: 12px 0;
+    background: #f4fbff;
+    border-top: 1px solid #d7edf9;
+    border-bottom: 3px solid #087bb5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.agm-contact-banner__inner {
+    position: relative;
+    isolation: isolate;
+    display: grid;
+    grid-template-columns:
+        minmax(260px, 23%)
+        minmax(230px, 1.1fr)
+        1px
+        minmax(220px, .85fr)
+        1px
+        minmax(190px, .75fr);
+    align-items: center;
+    gap: 22px;
+    width: 100%;
+    min-height: 182px;
+    margin: 0 auto;
+    padding: 0 clamp(140px, 16vw, 270px) 0 0;
+    overflow: hidden;
+    background: linear-gradient(
+        90deg,
+        #ffffff 0%,
+        #ffffff 65%,
+        #f0f9ff 100%
+    );
+}
+
+/* FOTO LIMPIA - IZQUIERDA */
+
+.agm-contact-banner__photo {
+    width: 100%;
+    height: 182px;
+    overflow: hidden;
+    border-radius: 0 120px 0 0;
+}
+
+.agm-contact-banner__photo img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 53% center;
+}
+
+/* TEXTO */
+
+.agm-contact-banner__message {
+    position: relative;
+    z-index: 1;
+    min-width: 0;
+    padding: 14px 0;
+}
+
+.agm-contact-banner__message h2 {
+    margin: 0 0 9px;
+    color: #073766;
+    font-size: clamp(17px, 1.35vw, 23px);
+    line-height: 1.3;
+    font-weight: 800;
+}
+
+.agm-contact-banner__message p {
+    margin: 0;
+    color: #345872;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* SEPARADORES */
+
+.agm-contact-banner__divider {
+    display: block;
+    width: 1px;
+    height: 75px;
+    background: #9bc5de;
+}
+
+/* BOTON */
+
+.agm-contact-banner__action {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 0;
+}
+
+.agm-contact-banner__button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    min-height: 49px;
+    padding: 11px 17px;
+    border-radius: 28px;
+    background: linear-gradient(
+        110deg,
+        #00a8d2,
+        #07558a
+    );
+    color: #fff !important;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none !important;
+    white-space: nowrap;
+    box-shadow: 0 6px 14px rgba(7, 70, 115, .12);
+    transition: transform .2s ease;
+}
+
+.agm-contact-banner__button svg {
+    width: 23px;
+    height: 23px;
+    flex-shrink: 0;
+}
+
+.agm-contact-banner__button:hover {
+    color: #fff !important;
+    transform: translateY(-2px);
+}
+
+/* WHATSAPP */
+
+.agm-contact-banner__whatsapp {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+    min-width: 0;
+    text-decoration: none !important;
+}
+
+.agm-contact-banner__whatsapp svg {
+    width: 42px;
+    height: 42px;
+    flex-shrink: 0;
+    color: #0bb45f;
+}
+
+.agm-contact-banner__whatsapp span {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.agm-contact-banner__whatsapp strong {
+    color: #08763b;
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.agm-contact-banner__whatsapp small {
+    color: #173c60;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+/* OCULTAR LA MONTAÑA SVG ANTERIOR */
+
+.agm-contact-banner__landscape {
+    display: none !important;
+}
+
+/* MONTAÑAS SUTILES INTEGRADAS AL FONDO */
+
+.agm-contact-banner__inner::after {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    right: 0;
+    bottom: 0;
+    width: clamp(180px, 21%, 380px);
+    height: 115px;
+    pointer-events: none;
+    opacity: .38;
+
+    background: linear-gradient(
+        180deg,
+        #a4dcff 0%,
+        #5eb5eb 100%
+    );
+
+    clip-path: polygon(
+        0 100%,
+        0 85%,
+        15% 60%,
+        26% 76%,
+        48% 19%,
+        65% 63%,
+        80% 35%,
+        100% 76%,
+        100% 100%
+    );
+
+    -webkit-mask-image: linear-gradient(
+        90deg,
+        transparent 0%,
+        black 30%
+    );
+
+    mask-image: linear-gradient(
+        90deg,
+        transparent 0%,
+        black 30%
+    );
+}
+
+/* ACCESIBILIDAD */
+
+.agm-contact-banner a:focus-visible {
+    outline: 3px solid #0abce3;
+    outline-offset: 3px;
+}
+
+/* PANTALLAS MEDIANAS */
+
+@media (max-width: 1450px) {
+    .agm-contact-banner__inner {
+        grid-template-columns:
+            minmax(230px, 24%)
+            minmax(215px, 1fr)
+            1px
+            minmax(200px, .85fr)
+            1px
+            minmax(170px, .75fr);
+        gap: 15px;
+        padding-right: 10px;
+    }
+
+    .agm-contact-banner__inner::after {
+        display: none;
+    }
+}
+
+/* TABLET */
+
+@media (max-width: 1050px) {
+    .agm-contact-banner__inner {
+        grid-template-columns:
+            190px minmax(0, 1fr) minmax(150px, .8fr);
+        grid-template-areas:
+            "photo message message"
+            "photo action whatsapp";
+        gap: 12px 20px;
+        padding: 14px;
+    }
+
+    .agm-contact-banner__photo {
+        grid-area: photo;
+        height: 175px;
+        border-radius: 15px 85px 15px 15px;
+    }
+
+    .agm-contact-banner__message {
+        grid-area: message;
+        padding: 0;
+    }
+
+    .agm-contact-banner__action {
+        grid-area: action;
+        justify-content: flex-start;
+    }
+
+    .agm-contact-banner__whatsapp {
+        grid-area: whatsapp;
+        justify-content: flex-start;
+    }
+
+    .agm-contact-banner__divider {
+        display: none;
+    }
+
+    .agm-contact-banner__message h2 {
+        font-size: 19px;
+    }
+}
+
+/* MOVILES */
+
+@media (max-width: 650px) {
+    .agm-contact-banner {
+        padding: 10px 0 18px;
+    }
+
+    .agm-contact-banner__inner {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 17px;
+        padding: 0 18px 24px;
+    }
+
+    .agm-contact-banner__photo {
+        width: calc(100% + 36px);
+        height: 170px;
+        margin-left: -18px;
+        border-radius: 0 85px 0 0;
+    }
+
+    .agm-contact-banner__message {
+        text-align: center;
+    }
+
+    .agm-contact-banner__message h2 {
+        font-size: 21px;
+    }
+
+    .agm-contact-banner__message p {
+        font-size: 13px;
+    }
+
+    .agm-contact-banner__action {
+        justify-content: center;
+    }
+
+    .agm-contact-banner__button {
+        width: min(100%, 290px);
+        font-size: 13px;
+    }
+
+    .agm-contact-banner__whatsapp {
+        justify-content: center;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .agm-contact-banner__button {
+        transition: none;
+    }
+
+    .agm-contact-banner__button:hover {
+        transform: none;
+    }
+}
+
+/* FIN CONTACTO HORIZONTAL V3 */
+
+/* ==========================================
+   AGROMATIC - MONTAÑAS DE CONTACTO V4
+   Ilustración integrada al fondo
+   ========================================== */
+
+/* Ocultar la ilustración SVG anterior */
+
+.agm-contact-banner__landscape {
+    display: none !important;
+}
+
+/* Incorporar la nueva montaña como fondo */
+
+.agm-contact-banner .agm-contact-banner__inner::after {
+    content: "";
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+
+    display: block;
+
+    width: clamp(260px, 28vw, 530px);
+    height: 100%;
+
+    background-image:
+        url("../img/montanas-contacto.png");
+
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    /* Eliminar la forma triangular anterior */
+    clip-path: none;
+    -webkit-clip-path: none;
+
+    /* Suavizar el borde izquierdo */
+    -webkit-mask-image: linear-gradient(
+        to right,
+        transparent 0%,
+        black 35%
+    );
+
+    mask-image: linear-gradient(
+        to right,
+        transparent 0%,
+        black 35%
+    );
+
+    opacity: .85;
+    pointer-events: none;
+}
+
+/* Mantener texto y botones por delante */
+
+.agm-contact-banner__message,
+.agm-contact-banner__action,
+.agm-contact-banner__whatsapp {
+    position: relative;
+    z-index: 1;
+}
+
+/* Pantallas medianas */
+
+@media (max-width: 1450px) {
+
+    .agm-contact-banner .agm-contact-banner__inner::after {
+        display: block;
+        width: clamp(200px, 30vw, 370px);
+        opacity: .40;
+    }
+
+}
+
+/* Tablet y celular:
+   ocultar la decoración para dar prioridad
+   a los botones y al contenido */
+
+@media (max-width: 1050px) {
+
+    .agm-contact-banner .agm-contact-banner__inner::after {
+        display: none;
+    }
+
+}
+
+/* FIN MONTAÑAS DE CONTACTO V4 */
+
+/* AGROMATIC - Ajuste final Misión, Visión y Valores */
+
+@media (min-width: 1101px) {
+    .agm-mvv-card {
+        min-height: 0;
+        padding: 26px 28px;
+    }
+
+    .agm-mvv-head {
+        margin-bottom: 14px;
+    }
+}

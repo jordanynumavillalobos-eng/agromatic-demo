@@ -1,0 +1,792 @@
+
+/* ==========================================
+   AGROMATIC - NOSOTROS V7
+   Estilos consolidados
+   ========================================== */
+
+.agm-nosotros,
+.agm-nosotros * {
+    box-sizing: border-box;
+}
+
+.agm-nosotros {
+    width: 100%;
+    background: #ffffff;
+    color: #083967;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.agm-nosotros-container {
+    width: calc(100% - 48px);
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.agm-nosotros-sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+/* ==========================================
+   1. BANNER NOSOTROS
+   ========================================== */
+
+.agm-nosotros-hero {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background: #073766;
+}
+
+.agm-nosotros-hero-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: none;
+}
+
+.agm-nosotros-hero-mobile {
+    display: none;
+}
+
+/* ==========================================
+   2. QUIENES SOMOS
+   ========================================== */
+
+.agm-nosotros-about {
+    padding: 55px 0 65px;
+    background: linear-gradient(
+        180deg,
+        #ffffff 0%,
+        #f3faff 100%
+    );
+}
+
+.agm-nosotros-about-grid {
+    display: grid;
+    grid-template-columns:
+        minmax(0, .95fr)
+        minmax(0, 1.05fr);
+    align-items: center;
+    gap: 50px;
+}
+
+.agm-nosotros-about-text {
+    min-width: 0;
+}
+
+.agm-nosotros-title {
+    position: relative;
+    margin: 0 0 27px;
+    padding-left: 19px;
+    border-left: 6px solid #08bce8;
+    color: #073766;
+    font-size: clamp(28px, 3vw, 40px);
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.agm-nosotros-about-text .agm-nosotros-title {
+    margin-bottom: 22px;
+    padding-left: 17px;
+    font-size: clamp(28px, 2.5vw, 36px);
+    line-height: 1.25;
+    letter-spacing: -.6px;
+}
+
+.agm-nosotros-about-text p {
+    margin: 0 0 19px;
+    color: #244969;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.75;
+}
+
+.agm-nosotros-about-text strong {
+    color: #073766;
+    font-weight: 700;
+}
+
+/* ==========================================
+   FOTOGRAFIA FLOTANTE
+   ========================================== */
+
+.agm-nosotros-photo-area {
+    width: 100%;
+    min-width: 0;
+    padding: 12px;
+}
+
+.agm-nosotros-photo-shell {
+    width: 100%;
+    padding: 3px;
+    filter: drop-shadow(
+        0 15px 24px rgba(0, 128, 195, .19)
+    );
+}
+
+.agm-nosotros-photo {
+    width: 100%;
+    padding: 7px;
+    background: #ffffff;
+    border-radius: 35px;
+    transform: skewX(-5deg);
+    overflow: hidden;
+}
+
+.agm-nosotros-photo img {
+    display: block;
+    width: 100%;
+    max-width: none;
+    height: 330px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 27px;
+    transform: skewX(5deg) scale(1.12);
+}
+
+/* ==========================================
+   3. MISION, VISION Y VALORES
+   ========================================== */
+
+.agm-mvv {
+    padding: 20px 0 70px;
+    background: #ffffff;
+}
+
+.agm-mvv-grid {
+    display: grid;
+    grid-template-columns:
+        repeat(3, minmax(0, 1fr));
+    gap: 30px;
+}
+
+.agm-mvv-card {
+    min-height: 0;
+    padding: 26px 28px;
+    border-radius: 24px;
+    background: linear-gradient(
+        180deg,
+        #eef8fd 0%,
+        #eaf5fb 100%
+    );
+    box-shadow:
+        0 10px 30px rgba(7, 55, 102, .08);
+}
+
+.agm-mvv-head {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 14px;
+}
+
+.agm-mvv-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    flex: 0 0 64px;
+}
+
+.agm-mvv-icon svg {
+    width: 100%;
+    height: 100%;
+    fill: none;
+    stroke: #12aee5;
+    stroke-width: 3.2;
+}
+
+.agm-mvv-icon svg .agm-mvv-fill {
+    fill: #12aee5;
+    stroke: none;
+}
+
+.agm-mvv-head h3 {
+    margin: 0;
+    color: #063b73;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.agm-mvv-card p {
+    margin: 0;
+    color: #1e3551;
+    font-size: 17px;
+    line-height: 1.65;
+}
+
+.agm-mvv-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.agm-mvv-list li {
+    position: relative;
+    padding-left: 34px;
+    margin-bottom: 14px;
+    color: #1e3551;
+    font-size: 17px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.agm-mvv-list li:last-child {
+    margin-bottom: 0;
+}
+
+.agm-mvv-list li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    top: 1px;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #12aee5;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 22px;
+    text-align: center;
+}
+
+/* ==========================================
+   4. NUESTRA HISTORIA
+   ========================================== */
+
+.agm-nosotros-history {
+    padding: 75px 0 85px;
+    background: #ffffff;
+}
+
+.agm-history-title {
+    margin-bottom: 38px;
+    font-size: clamp(30px, 3vw, 42px);
+}
+
+.agm-history-timeline {
+    position: relative;
+    display: grid;
+    grid-template-columns:
+        repeat(4, minmax(0, 1fr));
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.agm-history-timeline::before {
+    content: "";
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 119px;
+    height: 5px;
+    background: linear-gradient(
+        90deg,
+        #d6f2ff,
+        #69c9f1,
+        #d6f2ff
+    );
+    border-radius: 10px;
+}
+
+.agm-history-item {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 0;
+    text-align: center;
+}
+
+.agm-history-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 78px;
+    height: 78px;
+    border: 2px solid #bfe5fc;
+    border-radius: 50%;
+    background: #f7fcff;
+    color: #068bc1;
+    box-shadow:
+        0 5px 12px rgba(4, 109, 166, .10);
+}
+
+.agm-history-icon svg {
+    display: block;
+    width: 39px;
+    height: 39px;
+}
+
+.agm-history-connector {
+    position: relative;
+    display: block;
+    width: 3px;
+    height: 22px;
+    background: #6ac5ed;
+}
+
+.agm-history-connector::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    width: 12px;
+    height: 12px;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    background: #08aee1;
+    box-shadow: 0 0 0 4px #ffffff;
+}
+
+.agm-history-year {
+    position: relative;
+    z-index: 2;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 128px;
+    min-height: 43px;
+    margin-top: 5px;
+    padding: 7px 20px;
+    border-radius: 17px;
+    background: linear-gradient(
+        110deg,
+        #04a8d0,
+        #056197
+    );
+    color: #ffffff;
+    font-size: 23px;
+    font-weight: 800;
+    line-height: 1.2;
+    box-shadow:
+        0 5px 12px rgba(4, 99, 154, .14);
+}
+
+.agm-history-item p {
+    max-width: 265px;
+    margin: 18px auto 0;
+    color: #203c55;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* ==========================================
+   5. POR QUE ELEGIRNOS
+   ========================================== */
+
+.agm-nosotros-why {
+    padding: 65px 0 75px;
+    background: linear-gradient(
+        180deg,
+        #f5fbff 0%,
+        #ffffff 100%
+    );
+}
+
+.agm-why-title {
+    margin-bottom: 40px;
+    font-size: clamp(30px, 3vw, 40px);
+}
+
+.agm-why-grid {
+    display: grid;
+    grid-template-columns:
+        repeat(5, minmax(0, 1fr));
+    align-items: stretch;
+    gap: 0;
+}
+
+.agm-why-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-width: 0;
+    padding: 12px 22px 10px;
+    text-align: center;
+    border-right: 2px solid #d5eafa;
+}
+
+.agm-why-item:last-child {
+    border-right: none;
+}
+
+.agm-why-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 72px;
+    height: 72px;
+    margin-bottom: 17px;
+    color: #0789be;
+}
+
+.agm-why-icon svg {
+    display: block;
+    width: 60px;
+    height: 60px;
+}
+
+.agm-why-item h3 {
+    margin: 0;
+    color: #073766;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.45;
+    text-transform: none;
+}
+
+/* ==========================================
+   RESPONSIVE - TABLET
+   ========================================== */
+
+@media (max-width: 1100px) {
+
+    .agm-mvv-grid {
+        grid-template-columns: 1fr;
+        gap: 22px;
+    }
+
+    .agm-mvv-card {
+        min-height: 0;
+    }
+}
+
+@media (max-width: 1050px) {
+
+    .agm-nosotros-about-grid {
+        gap: 30px;
+    }
+
+    .agm-nosotros-about-text .agm-nosotros-title {
+        font-size: 29px;
+    }
+
+    .agm-nosotros-about-text p {
+        font-size: 15px;
+    }
+
+    .agm-nosotros-photo img {
+        height: 300px;
+    }
+
+    .agm-why-grid {
+        grid-template-columns:
+            repeat(3, minmax(0, 1fr));
+        row-gap: 30px;
+    }
+
+    .agm-why-item:nth-child(3) {
+        border-right: none;
+    }
+
+    .agm-why-item h3 {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .agm-history-timeline {
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+        gap: 45px 25px;
+    }
+
+    .agm-history-timeline::before {
+        display: none;
+    }
+
+    .agm-history-item p {
+        max-width: 300px;
+    }
+}
+
+/* ==========================================
+   RESPONSIVE - CELULARES
+   ========================================== */
+
+@media (max-width: 767px) {
+
+    .agm-nosotros-container {
+        width: calc(100% - 36px);
+    }
+
+    /* BANNER */
+
+    .agm-nosotros-hero {
+        height: 245px;
+    }
+
+    .agm-nosotros-hero-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 72% center;
+    }
+
+    .agm-nosotros-hero::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+            90deg,
+            rgba(3, 43, 80, .86),
+            rgba(3, 43, 80, .48) 65%,
+            rgba(3, 43, 80, .12)
+        );
+    }
+
+    .agm-nosotros-hero-mobile {
+        position: absolute;
+        z-index: 1;
+        top: 50%;
+        left: 22px;
+        right: 22px;
+        display: block;
+        transform: translateY(-50%);
+        color: #ffffff;
+    }
+
+    .agm-nosotros-hero-mobile h2 {
+        margin: 0 0 13px;
+        padding-left: 13px;
+        border-left: 5px solid #08cbef;
+        color: #ffffff;
+        font-size: 32px;
+        font-weight: 800;
+    }
+
+    .agm-nosotros-hero-mobile p {
+        max-width: 290px;
+        margin: 0;
+        color: #ffffff;
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    /* QUIENES SOMOS */
+
+    .agm-nosotros-about {
+        padding: 42px 0 50px;
+    }
+
+    .agm-nosotros-about-grid {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 25px;
+    }
+
+    .agm-nosotros-about-text .agm-nosotros-title {
+        font-size: 27px;
+        line-height: 1.3;
+        margin-bottom: 20px;
+    }
+
+    .agm-nosotros-about-text p {
+        font-size: 15px;
+        line-height: 1.7;
+        margin-bottom: 17px;
+    }
+
+    .agm-nosotros-photo-area {
+        padding: 8px;
+    }
+
+    .agm-nosotros-photo {
+        transform: none;
+        padding: 5px;
+        border-radius: 22px;
+    }
+
+    .agm-nosotros-photo img {
+        height: auto;
+        aspect-ratio: 16 / 10;
+        object-fit: cover;
+        transform: none;
+        border-radius: 17px;
+    }
+
+    /* MISION, VISION Y VALORES */
+
+    .agm-mvv {
+        padding: 10px 0 50px;
+    }
+
+    .agm-mvv-card {
+        padding: 24px 20px 22px;
+        border-radius: 20px;
+    }
+
+    .agm-mvv-head {
+        gap: 12px;
+        margin-bottom: 14px;
+    }
+
+    .agm-mvv-icon {
+        width: 52px;
+        height: 52px;
+        flex: 0 0 52px;
+    }
+
+    .agm-mvv-head h3 {
+        font-size: 24px;
+    }
+
+    .agm-mvv-card p,
+    .agm-mvv-list li {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 700px) {
+
+    /* POR QUE ELEGIRNOS */
+
+    .agm-nosotros-why {
+        padding: 45px 0 55px;
+    }
+
+    .agm-why-title {
+        margin-bottom: 27px;
+        font-size: 28px;
+    }
+
+    .agm-why-grid {
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+        gap: 22px 0;
+    }
+
+    .agm-why-item {
+        padding: 10px 12px;
+        border-right: none;
+    }
+
+    .agm-why-item:nth-child(odd) {
+        border-right: 1px solid #d5eafa;
+    }
+
+    .agm-why-item:last-child {
+        grid-column: 1 / -1;
+        border-right: none;
+    }
+
+    .agm-why-icon {
+        width: 58px;
+        height: 58px;
+        margin-bottom: 12px;
+    }
+
+    .agm-why-icon svg {
+        width: 48px;
+        height: 48px;
+    }
+
+    .agm-why-item h3 {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+}
+
+@media (max-width: 650px) {
+
+    /* NUESTRA HISTORIA */
+
+    .agm-nosotros-history {
+        padding: 48px 0 55px;
+    }
+
+    .agm-history-title {
+        margin-bottom: 35px;
+        font-size: 29px;
+    }
+
+    .agm-history-timeline {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 30px;
+    }
+
+    .agm-history-item {
+        display: grid;
+        grid-template-columns:
+            65px minmax(0, 1fr);
+        column-gap: 18px;
+        row-gap: 10px;
+        align-items: start;
+        text-align: left;
+    }
+
+    .agm-history-icon {
+        grid-column: 1;
+        grid-row: 1 / 3;
+        width: 62px;
+        height: 62px;
+    }
+
+    .agm-history-icon svg {
+        width: 31px;
+        height: 31px;
+    }
+
+    .agm-history-connector {
+        display: none;
+    }
+
+    .agm-history-year {
+        grid-column: 2;
+        grid-row: 1;
+        justify-self: start;
+        min-width: 104px;
+        min-height: 37px;
+        margin-top: 0;
+        padding: 6px 15px;
+        font-size: 18px;
+        border-radius: 13px;
+    }
+
+    .agm-history-item p {
+        grid-column: 2;
+        grid-row: 2;
+        width: 100%;
+        max-width: none;
+        margin: 0;
+        font-size: 15px;
+        line-height: 1.6;
+    }
+}
+
+@media (max-width: 370px) {
+
+    .agm-why-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .agm-why-item,
+    .agm-why-item:nth-child(odd) {
+        border-right: none;
+        border-bottom: 1px solid #d5eafa;
+        padding-bottom: 20px;
+    }
+
+    .agm-why-item:last-child {
+        grid-column: auto;
+        border-bottom: none;
+    }
+}
+
+/* FIN AGROMATIC NOSOTROS V7 */

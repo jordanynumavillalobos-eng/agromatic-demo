@@ -1,0 +1,1442 @@
+{
+  "fuente": "Capturas del catálogo original enviadas por el usuario (23/11/2026)",
+  "tipo": "Inventario de referencia, no exportación de BD",
+  "categorias": [
+    {
+      "id": "estaciones",
+      "nombre": "Estaciones Meteorológicas"
+    },
+    {
+      "id": "anemo_port",
+      "nombre": "Anemómetros Portátiles"
+    },
+    {
+      "id": "anemo_ind",
+      "nombre": "Anemómetros Industriales"
+    },
+    {
+      "id": "pluv_analog",
+      "nombre": "Pluviómetros analógicos"
+    },
+    {
+      "id": "pluv_datalog",
+      "nombre": "Pluviómetros con datalogger"
+    },
+    {
+      "id": "termo_interior",
+      "nombre": "Termohigrómetros interiores"
+    },
+    {
+      "id": "termo_interior_log",
+      "nombre": "Termohigrómetros interiores con datalogger"
+    },
+    {
+      "id": "termo_exterior_log",
+      "nombre": "Termohigrómetros exteriores con datalogger"
+    },
+    {
+      "id": "evaporimetros",
+      "nombre": "Evaporímetros"
+    },
+    {
+      "id": "tormentas",
+      "nombre": "Detector de Tormenta"
+    },
+    {
+      "id": "accesorios",
+      "nombre": "Accesorios"
+    },
+    {
+      "id": "luxometros",
+      "nombre": "Luxómetros"
+    },
+    {
+      "id": "correntometros",
+      "nombre": "Correntómetros"
+    },
+    {
+      "id": "humedad_granos",
+      "nombre": "Medidores de Humedad de Granos"
+    },
+    {
+      "id": "mangas_viento",
+      "nombre": "Mangas de Viento"
+    },
+    {
+      "id": "humedad_madera",
+      "nombre": "Medidores de Humedad de Madera y yeso"
+    },
+    {
+      "id": "dioxido_carbono",
+      "nombre": "Medidores de Dióxido de Carbono"
+    },
+    {
+      "id": "nivel_agua",
+      "nombre": "Nivel de agua"
+    },
+    {
+      "id": "phmetros",
+      "nombre": "PHmetros"
+    },
+    {
+      "id": "sonometros",
+      "nombre": "Sonómetros"
+    },
+    {
+      "id": "termometros",
+      "nombre": "Termómetros"
+    },
+    {
+      "id": "tensiometros",
+      "nombre": "Tensiómetros"
+    }
+  ],
+  "productos": [
+    {
+      "categoria": "tensiometros",
+      "nombre_categoria": "Tensiómetros",
+      "titulo": "Estación HOBO de temperatura y humedad de suelo, humedad de hoja",
+      "imagen": "panel/files/producto/20230130111845250x250.jpg",
+      "referencia_indice": 204,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "tensiometros",
+      "nombre_categoria": "Tensiómetros",
+      "titulo": "Tensiómetro WATERMARK de ubicación fija con lector digital",
+      "imagen": "panel/files/producto/20230130102659250x250.jpg",
+      "referencia_indice": 203,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "tensiometros",
+      "nombre_categoria": "Tensiómetros",
+      "titulo": "Tensiómetro IRROMETER tipo R y SR",
+      "imagen": "panel/files/producto/20230130093106250x250.jpg",
+      "referencia_indice": 200,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "tensiometros",
+      "nombre_categoria": "Tensiómetros",
+      "titulo": "Unidad de servicio IRROMETER",
+      "imagen": "panel/files/producto/20230130094016250x250.jpg",
+      "referencia_indice": 201,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "termometros",
+      "nombre_categoria": "Termómetros",
+      "titulo": "Termómetro HOBO con datalogger MX100",
+      "imagen": "panel/files/producto/20210315170852250x250.jpg",
+      "referencia_indice": 169,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "termometros",
+      "nombre_categoria": "Termómetros",
+      "titulo": "Termómetro de suelo DURAC",
+      "imagen": "panel/files/producto/20210315163256250x250.jpg",
+      "referencia_indice": 168,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "termometros",
+      "nombre_categoria": "Termómetros",
+      "titulo": "Termómetro de suelo TAYLOR",
+      "imagen": "panel/files/producto/20210315154232250x250.jpg",
+      "referencia_indice": 167,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "termometros",
+      "nombre_categoria": "Termómetros",
+      "titulo": "Termómetro TRACEABLE 4339 con sonda resistente al agua",
+      "imagen": "panel/files/producto/20210315151830250%20x%20250.jpg",
+      "referencia_indice": 166,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "termometros",
+      "nombre_categoria": "Termómetros",
+      "titulo": "Termómetro infrarrojo EXTECH 89448 de bolsillo",
+      "imagen": "panel/files/producto/20210315151139250%20x%20250.jpg",
+      "referencia_indice": 165,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "termometros",
+      "nombre_categoria": "Termómetros",
+      "titulo": "Termómetro infrarrojo TRACEABLE 4470 tipo pistola",
+      "imagen": "panel/files/producto/20210315145545250%20x%20250.jpg",
+      "referencia_indice": 164,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "termometros",
+      "nombre_categoria": "Termómetros",
+      "titulo": "Termómetro digital TRACEABLE 4048 con sonda y alarma",
+      "imagen": "panel/files/producto/20210315144106250%20x%20250.jpg",
+      "referencia_indice": 163,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "termometros",
+      "nombre_categoria": "Termómetros",
+      "titulo": "Termómetro digital TRACEABLE 4047 con sonda",
+      "imagen": "panel/files/producto/20210315143111250%20x%20250.jpg",
+      "referencia_indice": 162,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "sonometros",
+      "nombre_categoria": "Sonómetros",
+      "titulo": "SONÓMETRO Clase-2 SCARLET TECH ST-21D",
+      "imagen": null,
+      "referencia_indice": null,
+      "estado_foto": "sin_vincular"
+    },
+    {
+      "categoria": "sonometros",
+      "nombre_categoria": "Sonómetros",
+      "titulo": "SONÓMETRO Clase-1 SCARLET TECH ST-12D",
+      "imagen": null,
+      "referencia_indice": null,
+      "estado_foto": "sin_vincular"
+    },
+    {
+      "categoria": "sonometros",
+      "nombre_categoria": "Sonómetros",
+      "titulo": "Sonómetro digital clase 1 LUTRON SL-4022",
+      "imagen": null,
+      "referencia_indice": null,
+      "estado_foto": "sin_vincular"
+    },
+    {
+      "categoria": "sonometros",
+      "nombre_categoria": "Sonómetros",
+      "titulo": "Sonómetro digital EXTECH 407750",
+      "imagen": null,
+      "referencia_indice": null,
+      "estado_foto": "sin_vincular"
+    },
+    {
+      "categoria": "sonometros",
+      "nombre_categoria": "Sonómetros",
+      "titulo": "Sonómetro digital BAFX PRODUCTS BAFX3370",
+      "imagen": "panel/files/producto/20201204153306250X250.jpg",
+      "referencia_indice": 144,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "sonometros",
+      "nombre_categoria": "Sonómetros",
+      "titulo": "Sonómetro digital BAFX PRODUCTS con datalogger BAFX3608",
+      "imagen": "panel/files/producto/20201204145413250x250.jpg",
+      "referencia_indice": 143,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "sonometros",
+      "nombre_categoria": "Sonómetros",
+      "titulo": "Sonómetro REED digital con datalogger R8080",
+      "imagen": "panel/files/producto/20201204142347250x250.jpg",
+      "referencia_indice": 142,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "sonometros",
+      "nombre_categoria": "Sonómetros",
+      "titulo": "Sonómetro digital REED R8050",
+      "imagen": "panel/files/producto/20201204122838250x250.jpg",
+      "referencia_indice": 141,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "sonometros",
+      "nombre_categoria": "Sonómetros",
+      "titulo": "Sonómetro digital EXTECH 407730",
+      "imagen": "panel/files/producto/20201204115554250x250.jpg",
+      "referencia_indice": 140,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "sonometros",
+      "nombre_categoria": "Sonómetros",
+      "titulo": "Sonómetro integrador EXTECH 407736",
+      "imagen": "panel/files/producto/20201204113914250x250.jpg",
+      "referencia_indice": 139,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "sonometros",
+      "nombre_categoria": "Sonómetros",
+      "titulo": "Sonómetro integrador EXTECH con datalogger SDL600",
+      "imagen": "panel/files/producto/20201204111405250x250.jpg",
+      "referencia_indice": 138,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "phmetros",
+      "nombre_categoria": "PHmetros",
+      "titulo": "PHmetro digital HACH H138",
+      "imagen": null,
+      "referencia_indice": null,
+      "estado_foto": "sin_vincular"
+    },
+    {
+      "categoria": "phmetros",
+      "nombre_categoria": "PHmetros",
+      "titulo": "Solución Buffer para calibración de PHMETROS",
+      "imagen": null,
+      "referencia_indice": null,
+      "estado_foto": "sin_vincular"
+    },
+    {
+      "categoria": "phmetros",
+      "nombre_categoria": "PHmetros",
+      "titulo": "PHmetro HANNA HI991300",
+      "imagen": "panel/files/producto/20190926160319hi991300_2%20250x250.jpg",
+      "referencia_indice": 120,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "phmetros",
+      "nombre_categoria": "PHmetros",
+      "titulo": "PHmetro HACH Pocket pro",
+      "imagen": "panel/files/producto/20210210102016250x250.jpg",
+      "referencia_indice": 160,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "phmetros",
+      "nombre_categoria": "PHmetros",
+      "titulo": "PHmetro HACH H130",
+      "imagen": "panel/files/producto/2019092516075079815-4636349%20%20%20250x250.jpg",
+      "referencia_indice": 118,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "phmetros",
+      "nombre_categoria": "PHmetros",
+      "titulo": "PHmetro HANNA Combo",
+      "imagen": "panel/files/producto/20190925151006PHMETRO-HI98129%20%20%20250x250.jpg",
+      "referencia_indice": 117,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "phmetros",
+      "nombre_categoria": "PHmetros",
+      "titulo": "PHmetro MARTINI PH55",
+      "imagen": "panel/files/producto/20190926161800medidor_de_ph_y_temperatura_pH55%20%20%20250x250.jpg",
+      "referencia_indice": 121,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "phmetros",
+      "nombre_categoria": "PHmetros",
+      "titulo": "PHmetro ECOSENSE",
+      "imagen": "panel/files/producto/20190925171753s-l1000%20%20250x250.jpg",
+      "referencia_indice": 119,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "nivel_agua",
+      "nombre_categoria": "Nivel de agua",
+      "titulo": "Estación de nivel de agua HOBO X2104-WL",
+      "imagen": "panel/files/producto/20220131171314250x250.jpg",
+      "referencia_indice": 176,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "nivel_agua",
+      "nombre_categoria": "Nivel de agua",
+      "titulo": "Medidor de nivel de agua HOBO con datalogger",
+      "imagen": "panel/files/producto/20190930135128250x250.jpg",
+      "referencia_indice": 130,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "nivel_agua",
+      "nombre_categoria": "Nivel de agua",
+      "titulo": "Medidor de nivel de agua HOBO con datalogger y bluetooth de 0 a 4M",
+      "imagen": "panel/files/producto/20190930152038mo-staffg-sm-l0%20250x250.jpg",
+      "referencia_indice": 133,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "nivel_agua",
+      "nombre_categoria": "Nivel de agua",
+      "titulo": "Vara Limnimétrica de Fibra de Vidrio",
+      "imagen": "panel/files/producto/20190930122238250x250.jpg",
+      "referencia_indice": 124,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "nivel_agua",
+      "nombre_categoria": "Nivel de agua",
+      "titulo": "Vara Limnimétrica de Porcelana Esmaltada",
+      "imagen": "panel/files/producto/20190930113651mo-staffg-sm-l0%20250x250.jpg",
+      "referencia_indice": 123,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "dioxido_carbono",
+      "nombre_categoria": "Medidores de Dióxido de Carbono",
+      "titulo": "Medidor de Dióxido de carbono / temperatura / humedad relativa con datalogger",
+      "imagen": null,
+      "referencia_indice": null,
+      "estado_foto": "sin_vincular"
+    },
+    {
+      "categoria": "humedad_madera",
+      "nombre_categoria": "Medidores de Humedad de Madera y yeso",
+      "titulo": "Medidor de Humedad de Madera Delmhorst BDX-20",
+      "imagen": null,
+      "referencia_indice": null,
+      "estado_foto": "sin_vincular"
+    },
+    {
+      "categoria": "humedad_madera",
+      "nombre_categoria": "Medidores de Humedad de Madera y yeso",
+      "titulo": "Medidor de humedad de madera EXTECH MO210",
+      "imagen": null,
+      "referencia_indice": null,
+      "estado_foto": "sin_vincular"
+    },
+    {
+      "categoria": "humedad_madera",
+      "nombre_categoria": "Medidores de Humedad de Madera y yeso",
+      "titulo": "Medidor de humedad de suelo portátil AQUATTER M350",
+      "imagen": null,
+      "referencia_indice": null,
+      "estado_foto": "sin_vincular"
+    },
+    {
+      "categoria": "humedad_madera",
+      "nombre_categoria": "Medidores de Humedad de Madera y yeso",
+      "titulo": "Medidor de Humedad de Madera DELMHORST J-2000",
+      "imagen": null,
+      "referencia_indice": null,
+      "estado_foto": "sin_vincular"
+    },
+    {
+      "categoria": "mangas_viento",
+      "nombre_categoria": "Mangas de Viento",
+      "titulo": "Manga de Viento Anaranjada con armazón extendido de acero",
+      "imagen": null,
+      "referencia_indice": null,
+      "estado_foto": "sin_vincular"
+    },
+    {
+      "categoria": "mangas_viento",
+      "nombre_categoria": "Mangas de Viento",
+      "titulo": "Manga de Viento Bicolor con armazón extendido de acero inoxidable",
+      "imagen": null,
+      "referencia_indice": null,
+      "estado_foto": "sin_vincular"
+    },
+    {
+      "categoria": "humedad_granos",
+      "nombre_categoria": "Medidores de Humedad de Granos",
+      "titulo": "Medidor de Humedad de Granos",
+      "imagen": null,
+      "referencia_indice": null,
+      "estado_foto": "sin_vincular"
+    },
+    {
+      "categoria": "correntometros",
+      "nombre_categoria": "Correntómetros",
+      "titulo": "Correntómetro digital expandible GLOBAL WATER",
+      "imagen": "panel/files/producto/20230201143745250x250.jpg",
+      "referencia_indice": 206,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "correntometros",
+      "nombre_categoria": "Correntómetros",
+      "titulo": "Correntómetro SWOFFER 3000-C80",
+      "imagen": "panel/files/producto/20230201174635250x250.jpg",
+      "referencia_indice": 207,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "correntometros",
+      "nombre_categoria": "Correntómetros",
+      "titulo": "Correntómetro SWOFFER 3000-C140",
+      "imagen": "panel/files/producto/20230202094306250x250.jpg",
+      "referencia_indice": 208,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "correntometros",
+      "nombre_categoria": "Correntómetros",
+      "titulo": "Correntómetro SWOFFER 3000-C1518",
+      "imagen": "panel/files/producto/20230202115048250x250.jpg",
+      "referencia_indice": 211,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "luxometros",
+      "nombre_categoria": "Luxómetros",
+      "titulo": "Luxómetro digital Dr meter LX1330B",
+      "imagen": null,
+      "referencia_indice": null,
+      "estado_foto": "sin_vincular"
+    },
+    {
+      "categoria": "luxometros",
+      "nombre_categoria": "Luxómetros",
+      "titulo": "Luxómetro de doble lectura y doble rango LIGHT METER 3252",
+      "imagen": "panel/files/producto/20220922175923250x250.jpg",
+      "referencia_indice": 199,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "luxometros",
+      "nombre_categoria": "Luxómetros",
+      "titulo": "Luxómetro de rango dual TRACEABLE 3251",
+      "imagen": "panel/files/producto/20220922173711250x250.jpg",
+      "referencia_indice": 198,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "luxometros",
+      "nombre_categoria": "Luxómetros",
+      "titulo": "Luxómetro digital EXTECH EA30",
+      "imagen": "panel/files/producto/20220922165935250x250.jpg",
+      "referencia_indice": 197,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "accesorios",
+      "nombre_categoria": "Accesorios",
+      "titulo": "Controlador de carga Solar MPPT NEWPOWA 12V/10A",
+      "imagen": null,
+      "referencia_indice": null,
+      "estado_foto": "sin_vincular"
+    },
+    {
+      "categoria": "accesorios",
+      "nombre_categoria": "Accesorios",
+      "titulo": "Controlador de carga Solar Newpowa PWM 12/24V 10A",
+      "imagen": null,
+      "referencia_indice": null,
+      "estado_foto": "sin_vincular"
+    },
+    {
+      "categoria": "accesorios",
+      "nombre_categoria": "Accesorios",
+      "titulo": "Controlador de carga Solar TOPSOLAR 12/24V 10A",
+      "imagen": null,
+      "referencia_indice": null,
+      "estado_foto": "sin_vincular"
+    },
+    {
+      "categoria": "accesorios",
+      "nombre_categoria": "Accesorios",
+      "titulo": "Baterías Recargables de Lithium 12V/18A",
+      "imagen": null,
+      "referencia_indice": null,
+      "estado_foto": "sin_vincular"
+    },
+    {
+      "categoria": "accesorios",
+      "nombre_categoria": "Accesorios",
+      "titulo": "Baterías Recargables Selladas POWER SONIC 6V, 12V",
+      "imagen": null,
+      "referencia_indice": null,
+      "estado_foto": "sin_vincular"
+    },
+    {
+      "categoria": "accesorios",
+      "nombre_categoria": "Accesorios",
+      "titulo": "Modem Celular Industrial 4G/3G WLINK",
+      "imagen": null,
+      "referencia_indice": null,
+      "estado_foto": "sin_vincular"
+    },
+    {
+      "categoria": "accesorios",
+      "nombre_categoria": "Accesorios",
+      "titulo": "Router Celular Industrial 3g/4g MILESIGHT UR-32",
+      "imagen": null,
+      "referencia_indice": null,
+      "estado_foto": "sin_vincular"
+    },
+    {
+      "categoria": "accesorios",
+      "nombre_categoria": "Accesorios",
+      "titulo": "Caja Nema Altelix",
+      "imagen": null,
+      "referencia_indice": null,
+      "estado_foto": "sin_vincular"
+    },
+    {
+      "categoria": "accesorios",
+      "nombre_categoria": "Accesorios",
+      "titulo": "Paneles Solares",
+      "imagen": null,
+      "referencia_indice": null,
+      "estado_foto": "sin_vincular"
+    },
+    {
+      "categoria": "tormentas",
+      "nombre_categoria": "Detector de Tormenta",
+      "titulo": "Detector de tormenta SKYSCAN P5",
+      "imagen": "panel/files/producto/20190318165533250x250.jpg",
+      "referencia_indice": 112,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "tormentas",
+      "nombre_categoria": "Detector de Tormenta",
+      "titulo": "DETECTOR DE TORMENTA STRIKEALERT LD-1000",
+      "imagen": null,
+      "referencia_indice": null,
+      "estado_foto": "sin_vincular"
+    },
+    {
+      "categoria": "tormentas",
+      "nombre_categoria": "Detector de Tormenta",
+      "titulo": "DETECTOR DE TORMENTA STRIKEALERT LD-3000",
+      "imagen": null,
+      "referencia_indice": null,
+      "estado_foto": "sin_vincular"
+    },
+    {
+      "categoria": "tormentas",
+      "nombre_categoria": "Detector de Tormenta",
+      "titulo": "Detector de tormenta BOLTEK modelo LD-350",
+      "imagen": "panel/files/producto/20220131102409250x250.jpg",
+      "referencia_indice": 174,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "tormentas",
+      "nombre_categoria": "Detector de Tormenta",
+      "titulo": "Detector de tormenta SKYSCAN FIELD PRO",
+      "imagen": "panel/files/producto/20190318171434Sfield%20pro%20250x250.jpg",
+      "referencia_indice": 116,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "tormentas",
+      "nombre_categoria": "Detector de Tormenta",
+      "titulo": "Detector de tormenta SKYSCAN STORM PRO2",
+      "imagen": "panel/files/producto/20190318165828250x250.jpg",
+      "referencia_indice": 113,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "tormentas",
+      "nombre_categoria": "Detector de Tormenta",
+      "titulo": "Detector de tormenta SKYSCAN EWS-PRO2",
+      "imagen": "panel/files/producto/20190318170408250x250.jpg",
+      "referencia_indice": 114,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "evaporimetros",
+      "nombre_categoria": "Evaporímetros",
+      "titulo": "Rellenador automático de bandeja evaporímetro",
+      "imagen": "panel/files/producto/20230130173654250x250.jpg",
+      "referencia_indice": 205,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "evaporimetros",
+      "nombre_categoria": "Evaporímetros",
+      "titulo": "Tanque Evaporímetro clase A con Gancho graduado",
+      "imagen": "panel/files/producto/20170702211227Tanque%20vaporimetro%20(250x250).jpg",
+      "referencia_indice": 53,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "evaporimetros",
+      "nombre_categoria": "Evaporímetros",
+      "titulo": "Tanque Evaporímetro Clase A con medidor automático y Datalogger",
+      "imagen": "panel/files/producto/20170702210113250x250.JPG",
+      "referencia_indice": 52,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "termo_exterior_log",
+      "nombre_categoria": "Termohigrómetros exteriores con datalogger",
+      "titulo": "Termohigrómetro Weather envoy DAVIS",
+      "imagen": "panel/files/producto/20220511181821250x250.jpg",
+      "referencia_indice": 194,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "termo_exterior_log",
+      "nombre_categoria": "Termohigrómetros exteriores con datalogger",
+      "titulo": "Micro estación de temperatura/humedad con datalogger HOBO",
+      "imagen": "panel/files/producto/20220511151806250x250.jpg",
+      "referencia_indice": 193,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "termo_exterior_log",
+      "nombre_categoria": "Termohigrómetros exteriores con datalogger",
+      "titulo": "Termohigrómetro HOBO con Datalogger y Bluetooth THMX2301",
+      "imagen": "panel/files/producto/20170731210559THMX2301%20250x250.jpg",
+      "referencia_indice": 54,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "termo_exterior_log",
+      "nombre_categoria": "Termohigrómetros exteriores con datalogger",
+      "titulo": "Termohigrómetro HOBO con LCD datalogger y software THU14-002",
+      "imagen": "panel/files/producto/20160306205117THU14-002%20(250x250).jpg",
+      "referencia_indice": 50,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "termo_interior",
+      "nombre_categoria": "Termohigrómetros interiores",
+      "titulo": "BAROTERMOHIGRÓMETRO TRACEABLE 6530",
+      "imagen": null,
+      "referencia_indice": null,
+      "estado_foto": "sin_vincular"
+    },
+    {
+      "categoria": "termo_interior",
+      "nombre_categoria": "Termohigrómetros interiores",
+      "titulo": "Termohigrómetro TRACEABLE 4410",
+      "imagen": "panel/files/producto/20160214171132TH4410%20(250x250).jpg",
+      "referencia_indice": 41,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "termo_interior",
+      "nombre_categoria": "Termohigrómetros interiores",
+      "titulo": "Termohigrómetro digital SMARTRO SC42",
+      "imagen": "panel/files/producto/20220311111002250x250.jpg",
+      "referencia_indice": 180,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "termo_interior",
+      "nombre_categoria": "Termohigrómetros interiores",
+      "titulo": "Termohigrómetro digital NOKLEAD NK5253",
+      "imagen": "panel/files/producto/20220311101718250x250.jpg",
+      "referencia_indice": 179,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "termo_interior",
+      "nombre_categoria": "Termohigrómetros interiores",
+      "titulo": "Termohigrómetro digital ACURITE 01083M",
+      "imagen": "panel/files/producto/20220310160329250x250.jpg",
+      "referencia_indice": 178,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "termo_interior",
+      "nombre_categoria": "Termohigrómetros interiores",
+      "titulo": "Termohigrómetro digital THERMOPRO TP-49",
+      "imagen": "panel/files/producto/20210423121358250x250.jpg",
+      "referencia_indice": 170,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "termo_interior",
+      "nombre_categoria": "Termohigrómetros interiores",
+      "titulo": "Termohigrómetro digital ADORIC con reloj y pantalla táctil",
+      "imagen": "panel/files/producto/20180404105612Adoric%20250x250.jpg",
+      "referencia_indice": 97,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "termo_interior",
+      "nombre_categoria": "Termohigrómetros interiores",
+      "titulo": "Termohigrómetro digital THERMOPRO TP-50",
+      "imagen": "panel/files/producto/20201222100157250x250.jpg",
+      "referencia_indice": 146,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "termo_interior",
+      "nombre_categoria": "Termohigrómetros interiores",
+      "titulo": "Termohigrómetro digital GOVEE H5075 con Bluetooth",
+      "imagen": "panel/files/producto/20201221172014250x250.jpg",
+      "referencia_indice": 145,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "termo_interior",
+      "nombre_categoria": "Termohigrómetros interiores",
+      "titulo": "Termohigrómetro TRACEABLE con sonda de temperatura TH4154",
+      "imagen": "panel/files/producto/20170911140755250%20x%20250.jpg",
+      "referencia_indice": 81,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "termo_interior",
+      "nombre_categoria": "Termohigrómetros interiores",
+      "titulo": "Termohigrómetro Digital con pantalla Táctil THERMOPRO THTP-55",
+      "imagen": "panel/files/producto/20180423171821termopro%20250%20x%20250.jpg",
+      "referencia_indice": 105,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "termo_interior",
+      "nombre_categoria": "Termohigrómetros interiores",
+      "titulo": "Termohigrómetro TRACEABLE digital con reloj TH4040",
+      "imagen": "panel/files/producto/20160214165759TH4040%20-%20(250x250).jpg",
+      "referencia_indice": 37,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "termo_interior",
+      "nombre_categoria": "Termohigrómetros interiores",
+      "titulo": "Termohigrómetro TRACEABLE con sonda de medición TH4082",
+      "imagen": "panel/files/producto/20160214170110TH4082%20(250x250).jpg",
+      "referencia_indice": 38,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "termo_interior",
+      "nombre_categoria": "Termohigrómetros interiores",
+      "titulo": "Termohigrómetro digital TRACEABLE con memoria TH4096",
+      "imagen": "panel/files/producto/20160214170449TH4096%20(250x250).jpg",
+      "referencia_indice": 39,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "termo_interior",
+      "nombre_categoria": "Termohigrómetros interiores",
+      "titulo": "Termohigrómetro portátil TRACEABLE TH4187",
+      "imagen": "panel/files/producto/20160214170755TH4187%20(250x250).jpg",
+      "referencia_indice": 40,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "termo_interior",
+      "nombre_categoria": "Termohigrómetros interiores",
+      "titulo": "Termohigrómetro analógico de pared OAKTON",
+      "imagen": "panel/files/producto/20160214171436TH76151%20(250x250).jpg",
+      "referencia_indice": 42,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "termo_interior",
+      "nombre_categoria": "Termohigrómetros interiores",
+      "titulo": "Termohigrómetro digital EXTECH con reloj TH76254",
+      "imagen": "panel/files/producto/20160214171716TH76254%20(250x250).jpg",
+      "referencia_indice": 43,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "termo_interior",
+      "nombre_categoria": "Termohigrómetros interiores",
+      "titulo": "Termohigrómetro digital DELMHORST portátil TH79327",
+      "imagen": "panel/files/producto/20160214172000TH79327%20(250x250).jpg",
+      "referencia_indice": 44,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "termo_interior",
+      "nombre_categoria": "Termohigrómetros interiores",
+      "titulo": "Termohigrómetro digital DURAC con sonda de lectura externa",
+      "imagen": "panel/files/producto/20160214172307TH89345%20(250x250).jpg",
+      "referencia_indice": 45,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "pluv_datalog",
+      "nombre_categoria": "Pluviómetros con datalogger",
+      "titulo": "Pluviómetro YOUNG de vaciado automático de 200cm2 con datalogger",
+      "imagen": "panel/files/producto/20160212111444P52202%20-%20(250x250).JPG",
+      "referencia_indice": 24,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "pluv_datalog",
+      "nombre_categoria": "Pluviómetros con datalogger",
+      "titulo": "Pluviómetro DAVIS de vaciado automático de 0.2mm con datalogger",
+      "imagen": null,
+      "referencia_indice": null,
+      "estado_foto": "sin_vincular"
+    },
+    {
+      "categoria": "pluv_datalog",
+      "nombre_categoria": "Pluviómetros con datalogger",
+      "titulo": "Pluviómetro LAMBRECHT de vaciado automático de 200cm2",
+      "imagen": null,
+      "referencia_indice": null,
+      "estado_foto": "sin_vincular"
+    },
+    {
+      "categoria": "pluv_datalog",
+      "nombre_categoria": "Pluviómetros con datalogger",
+      "titulo": "Pluviómetro TEXAS ELECTRONICS de vaciado automático y datalogger",
+      "imagen": "panel/files/producto/20160212113129PTR525%20-%20(250x250).jpg",
+      "referencia_indice": 25,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "pluv_datalog",
+      "nombre_categoria": "Pluviómetros con datalogger",
+      "titulo": "Rain Datalogger Delta Ohm",
+      "imagen": null,
+      "referencia_indice": null,
+      "estado_foto": "sin_vincular"
+    },
+    {
+      "categoria": "pluv_datalog",
+      "nombre_categoria": "Pluviómetros con datalogger",
+      "titulo": "Rain Datalogger HOBO UX90",
+      "imagen": null,
+      "referencia_indice": null,
+      "estado_foto": "sin_vincular"
+    },
+    {
+      "categoria": "pluv_datalog",
+      "nombre_categoria": "Pluviómetros con datalogger",
+      "titulo": "Pluviómetro HOBO de vaciado automático de 0.2mm con datalogger",
+      "imagen": "panel/files/producto/20160212102550PRG3M%20-%20(250x250).JPG",
+      "referencia_indice": 22,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "pluv_datalog",
+      "nombre_categoria": "Pluviómetros con datalogger",
+      "titulo": "Pluviómetro NOVALYNX de vaciado automático y datalogger con LCD",
+      "imagen": "panel/files/producto/20160212121217P2501%20-%20(250x250).jpg",
+      "referencia_indice": 26,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "pluv_analog",
+      "nombre_categoria": "Pluviómetros analógicos",
+      "titulo": "Medidor de Lluvia SPRINGFIELD de lectura directa",
+      "imagen": "panel/files/producto/20160211221514P90107%20(250x250).jpg",
+      "referencia_indice": 18,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "pluv_analog",
+      "nombre_categoria": "Pluviómetros analógicos",
+      "titulo": "Medidor de Lluvia TAYLOR de lectura directa",
+      "imagen": "panel/files/producto/2016021122132289068%20(250x250).jpg",
+      "referencia_indice": 17,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "pluv_analog",
+      "nombre_categoria": "Pluviómetros analógicos",
+      "titulo": "Medidor de Lluvia TRU-CHEK de lectura directa",
+      "imagen": "panel/files/producto/2016021122110989011%20-%20250x250.jpg",
+      "referencia_indice": 16,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "pluv_analog",
+      "nombre_categoria": "Pluviómetros analógicos",
+      "titulo": "Medidor de Lluvia tipo Probeta",
+      "imagen": "panel/files/producto/2016021122075388994%20250x250.jpg",
+      "referencia_indice": 15,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "pluv_analog",
+      "nombre_categoria": "Pluviómetros analógicos",
+      "titulo": "Pluviómetro HELLMANN de 120 litros",
+      "imagen": "panel/files/producto/20160211221723P2148%20(250x250).png",
+      "referencia_indice": 19,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "pluv_analog",
+      "nombre_categoria": "Pluviómetros analógicos",
+      "titulo": "Pluviómetro HELLMANN de 200 Litros",
+      "imagen": "panel/files/producto/20160211221923P2144%20(250x250).JPG",
+      "referencia_indice": 20,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "anemo_ind",
+      "nombre_categoria": "Anemómetros Industriales",
+      "titulo": "Anemómetro inalámbrico SCARLET WL-410",
+      "imagen": null,
+      "referencia_indice": null,
+      "estado_foto": "sin_vincular"
+    },
+    {
+      "categoria": "anemo_ind",
+      "nombre_categoria": "Anemómetros Industriales",
+      "titulo": "Anemómetro inalámbrico SCARLET WL-21",
+      "imagen": "panel/files/producto/20220511110041250x250.jpg",
+      "referencia_indice": 192,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "anemo_ind",
+      "nombre_categoria": "Anemómetros Industriales",
+      "titulo": "Anemómetro inalámbrico SCARLET WR-3 PLUS",
+      "imagen": "panel/files/producto/20220510143124250x250.jpg",
+      "referencia_indice": 182,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "anemo_ind",
+      "nombre_categoria": "Anemómetros Industriales",
+      "titulo": "Anemómetro con datalogger MADGETECH",
+      "imagen": "panel/files/producto/20170908160158250%20x%20250.jpg",
+      "referencia_indice": 68,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "anemo_ind",
+      "nombre_categoria": "Anemómetros Industriales",
+      "titulo": "Anemómetro Davis con datalogger HOBO H21",
+      "imagen": "panel/files/producto/20180404162727250x250.jpg",
+      "referencia_indice": 102,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "anemo_ind",
+      "nombre_categoria": "Anemómetros Industriales",
+      "titulo": "Medidor de Velocidad y/o Dirección de viento con datalogger HOBO",
+      "imagen": "panel/files/producto/20160213175651H2200A%20(250x250).jpg",
+      "referencia_indice": 28,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "anemo_ind",
+      "nombre_categoria": "Anemómetros Industriales",
+      "titulo": "Anemómetro de hélices RAINWISE con datalogger",
+      "imagen": "panel/files/producto/20160213180116AWlog%20(250x250).jpg",
+      "referencia_indice": 29,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "anemo_ind",
+      "nombre_categoria": "Anemómetros Industriales",
+      "titulo": "Anemómetro de hélices YOUNG con datalogger CAMPBELL",
+      "imagen": "panel/files/producto/20160213180950A05103%20(250x250).jpg",
+      "referencia_indice": 30,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "anemo_port",
+      "nombre_categoria": "Anemómetros Portátiles",
+      "titulo": "Termoanemómetro Portátil con Manubrio HOLDPEAK HP-846A",
+      "imagen": "panel/files/producto/20220510154147250x250.jpg",
+      "referencia_indice": 183,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "anemo_port",
+      "nombre_categoria": "Anemómetros Portátiles",
+      "titulo": "Anemómetro-termohigrómetro portátil TRACEABLE 3651",
+      "imagen": "panel/files/producto/20220510172207250%20x%20250.jpg",
+      "referencia_indice": 190,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "anemo_port",
+      "nombre_categoria": "Anemómetros Portátiles",
+      "titulo": "Anemómetro digital portátil AOPUTTRIVER AP-876",
+      "imagen": "panel/files/producto/20220506172153250x250.jpg",
+      "referencia_indice": 181,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "anemo_port",
+      "nombre_categoria": "Anemómetros Portátiles",
+      "titulo": "Termoanemómetro digital TRACEABLE 4331",
+      "imagen": "panel/files/producto/20220510163202250%20x%20250.jpg",
+      "referencia_indice": 186,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "anemo_port",
+      "nombre_categoria": "Anemómetros Portátiles",
+      "titulo": "Termoanemómetro digital TRACEABLE 3650",
+      "imagen": "panel/files/producto/20220510181315250%20x%20250.jpg",
+      "referencia_indice": 191,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "anemo_port",
+      "nombre_categoria": "Anemómetros Portátiles",
+      "titulo": "Termoanemómetro BTMETER con manubrio BT-856A Pro",
+      "imagen": "panel/files/producto/20220131140717250x250.jpg",
+      "referencia_indice": 175,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "anemo_port",
+      "nombre_categoria": "Anemómetros Portátiles",
+      "titulo": "Anemómetro portátil Kestrel 3500NV",
+      "imagen": null,
+      "referencia_indice": null,
+      "estado_foto": "sin_vincular"
+    },
+    {
+      "categoria": "anemo_port",
+      "nombre_categoria": "Anemómetros Portátiles",
+      "titulo": "Anemómetro portátil Kestrel 3500",
+      "imagen": "panel/files/producto/20210513164516250x250.jpg",
+      "referencia_indice": 171,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "anemo_port",
+      "nombre_categoria": "Anemómetros Portátiles",
+      "titulo": "Anemómetro portátil Kestrel 2000",
+      "imagen": "panel/files/producto/20210203151018250x250.jpg",
+      "referencia_indice": 155,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "anemo_port",
+      "nombre_categoria": "Anemómetros Portátiles",
+      "titulo": "Anemómetro-Termómetro Dwyer DFM8904",
+      "imagen": "panel/files/producto/20210203105208250x250.jpg",
+      "referencia_indice": 153,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "anemo_port",
+      "nombre_categoria": "Anemómetros Portátiles",
+      "titulo": "Medidor de clima multiparámetro portátil Kestrel 5500",
+      "imagen": "panel/files/producto/20210203102901250x250.jpg",
+      "referencia_indice": 151,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "anemo_port",
+      "nombre_categoria": "Anemómetros Portátiles",
+      "titulo": "Anemómetro portátil digital HOLDPEAK HP-866B",
+      "imagen": "panel/files/producto/20170908144323250%20x%20250.jpg",
+      "referencia_indice": 60,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "anemo_port",
+      "nombre_categoria": "Anemómetros Portátiles",
+      "titulo": "Anemómetro Portátil de copas SKYWATCH Meteos-1",
+      "imagen": "panel/files/producto/20181210165032250x250.jpg",
+      "referencia_indice": 110,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "anemo_port",
+      "nombre_categoria": "Anemómetros Portátiles",
+      "titulo": "Anemómetro portátil ADC-WIND",
+      "imagen": "panel/files/producto/20160211120659ADC-WIND%20250X250.jpg",
+      "referencia_indice": 1,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "anemo_port",
+      "nombre_categoria": "Anemómetros Portátiles",
+      "titulo": "Anemómetro portátil ADC-SUMMIT",
+      "imagen": "panel/files/producto/20160211123840adcsummit%20250x250.jpg",
+      "referencia_indice": 2,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "anemo_port",
+      "nombre_categoria": "Anemómetros Portátiles",
+      "titulo": "Anemómetro portátil ADC-Pro",
+      "imagen": "panel/files/producto/20160211124606ADC-PRO%20250x250.jpg",
+      "referencia_indice": 3,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "anemo_port",
+      "nombre_categoria": "Anemómetros Portátiles",
+      "titulo": "Anemómetro portátil Kestrel 1000",
+      "imagen": "panel/files/producto/20160211164757kestrel1000%20250X250.jpeg",
+      "referencia_indice": 4,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "anemo_port",
+      "nombre_categoria": "Anemómetros Portátiles",
+      "titulo": "Anemómetro portátil Kestrel 2500",
+      "imagen": "panel/files/producto/20160211171952kestrel2500%20250x250.jpg",
+      "referencia_indice": 5,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "anemo_port",
+      "nombre_categoria": "Anemómetros Portátiles",
+      "titulo": "Anemómetro portátil Kestrel 3000",
+      "imagen": "panel/files/producto/20160211172517kestrel3000%20250x250.jpg",
+      "referencia_indice": 6,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "anemo_port",
+      "nombre_categoria": "Anemómetros Portátiles",
+      "titulo": "Anemómetro portátil EXTECH de copas con sensor de Temperatura",
+      "imagen": "panel/files/producto/20160211182424A89522%20-%20250x250.JPG",
+      "referencia_indice": 9,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "anemo_port",
+      "nombre_categoria": "Anemómetros Portátiles",
+      "titulo": "Anemómetro Portátil XPLORER-1",
+      "imagen": "panel/files/producto/20160211192529a89301%20250x250.jpg",
+      "referencia_indice": 14,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "anemo_port",
+      "nombre_categoria": "Anemómetros Portátiles",
+      "titulo": "Anemómetro portátil Windmate WM-100",
+      "imagen": "panel/files/producto/20170908115510250%20x%20250.jpg",
+      "referencia_indice": 56,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "anemo_port",
+      "nombre_categoria": "Anemómetros Portátiles",
+      "titulo": "Hélice de viento para smartphone app",
+      "imagen": "panel/files/producto/20170908142003250%20x%20250.jpg",
+      "referencia_indice": 59,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "anemo_port",
+      "nombre_categoria": "Anemómetros Portátiles",
+      "titulo": "Anemómetro portátil de copas SKYWATCH Eole-1",
+      "imagen": "panel/files/producto/20181210172049250x250.jpg",
+      "referencia_indice": 111,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "anemo_port",
+      "nombre_categoria": "Anemómetros Portátiles",
+      "titulo": "Mini medidor de clima portátil Kestrel 5200",
+      "imagen": "panel/files/producto/20181210164229250x250.jpg",
+      "referencia_indice": 109,
+      "estado_foto": "vinculada_provisionalmente"
+    },
+    {
+      "categoria": "anemo_port",
+      "nombre_categoria": "Anemómetros Portátiles",
+      "titulo": "Medidor de clima multiparámetro Kestrel 5000",
+      "imagen": "panel/files/producto/20181210162731250x250.jpg",
+      "referencia_indice": 108,
+      "estado_foto": "vinculada_provisionalmente"
+    }
+  ],
+  "estaciones": {
+    "tipo": "tabla_comparativa",
+    "modelos": [
+      "W1-001002",
+      "W1-001103",
+      "W1-001007",
+      "W1-001008",
+      "W2-001001",
+      "W2-001010",
+      "W2-001013",
+      "W3-001004"
+    ],
+    "sensores": [
+      {
+        "nombre": "Temperatura Ambiente",
+        "modelos": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "nombre": "Humedad Relativa",
+        "modelos": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "nombre": "Pluviómetro",
+        "modelos": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "nombre": "Velocidad de viento",
+        "modelos": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "nombre": "Dirección de viento",
+        "modelos": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "nombre": "Radiación Solar",
+        "modelos": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "nombre": "Rayos UV",
+        "modelos": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "nombre": "Presión barométrica",
+        "modelos": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "nombre": "Tanque evaporímetro",
+        "modelos": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "nombre": "Nivel de agua",
+        "modelos": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "nombre": "Humedad de suelo",
+        "modelos": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "nombre": "Temperatura de suelo",
+        "modelos": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "nombre": "Humedad de Hoja",
+        "modelos": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "nombre": "Altura de Nieve",
+        "modelos": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "nombre": "Telemetría (Satelital/GPRS)",
+        "modelos": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    ]
+  }
+}
